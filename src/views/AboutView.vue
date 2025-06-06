@@ -255,7 +255,7 @@
                 Haute Ecole de Commerce et de Management
               </div>
               <p class="text-[12px] text-gray-700 font-normal">
-                Bachelor's Degree in Software and Information Systems, obtained in 2022.
+                Bachelor's Degree in Computer Science, obtained in 2022.
               </p>
             </div>
           </div>
