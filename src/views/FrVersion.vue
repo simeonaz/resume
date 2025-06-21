@@ -7,7 +7,8 @@
             Siméon Azogbonon
           </h1>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
-            Développeur Full Stack spécialisé JavaScript (Node.js, Vue.js, NestJS, TailwindCSS)
+            Développeur Full Stack spécialisé JavaScript (Node.js, Vue.js, Nuxt, NestJS,
+            TailwindCSS)
           </p>
         </div>
 
@@ -54,9 +55,7 @@
           <!-- TOK Services -->
           <div class="mt-3 flex flex-col">
             <div class="flex items-end space-x-1">
-              <h4 class="text-[14px] text-gray-700 font-normal">
-                Développeur web full-stack & Lead
-              </h4>
+              <h4 class="text-[14px] text-gray-700 font-normal">Lead développeur full-stack</h4>
               <span class="text-[10px] text-gray-700 mb-1">•</span>
               <a
                 href="https://tok-services.web.app/"
@@ -247,33 +246,36 @@
             <div class="mt-3 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Stack technique</div>
               <p class="text-[12px] text-gray-700 font-normal">
-                NodeJS, Vue.js, TailwindCSS, NestJS, PostgreSQL, TypeORM, MongoDB, Mongoose, APIs
-                REST
+                NodeJS, Vue.js, Nuxt, TailwindCSS, NestJS, PostgreSQL, TypeORM, MongoDB, Mongoose,
+                APIs REST
               </p>
             </div>
 
             <div class="mt-3 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Outils</div>
               <p class="text-[12px] text-gray-700 font-normal">
-                Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Firebase, Docker,
-                Netlify, Vercel, Trello
+                VsCode, Cursor, Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Stitch,
+                Firebase, Docker, Netlify, Vercel, Trello
               </p>
             </div>
+          </div>
 
-            <!-- <div class="mt-3 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Stack technique</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                NodeJS, Vue.js 3, TailwindCSS, NestJS,
-              </p>
-            </div>
+          <div class="flex flex-col mt-5">
+            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
+              Quelques projets personnels
+            </h2>
 
-            <div class="mt-3 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Outils</div>
+            <a
+              href="https://neith-security.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-3 flex flex-col"
+              ><div class="text-gray-700 font-bold text-[13px]">Neith - vérificateur de lien</div>
               <p class="text-[12px] text-gray-700 font-normal">
-                Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Firebase, Docker,
-                Netlify, Vercel, PostgreSQL, MongoDB, APIs REST, Trello
-              </p>
-            </div> -->
+                Application web développée avec Nuxt.js permettant d'évaluer la fiabilité d'un lien
+                via l'API Google Safe Browsing.
+              </p></a
+            >
           </div>
 
           <div class="flex flex-col mt-5">
