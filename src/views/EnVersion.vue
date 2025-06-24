@@ -7,7 +7,7 @@
             Siméon Azogbonon
           </h1>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
-            Full Stack Developer specializing in JavaScript (Node.js, Vue.js, NestJS, TailwindCSS)
+            Full Stack JavaScript Developer (Node.js, Vue.js, Nuxt, NestJS, TailwindCSS)
           </p>
         </div>
 
@@ -41,6 +41,7 @@
               rel="noopener noreferrer"
               >simeonaz.netlify.app</a
             >
+            <span>Abomey-Calavi, Republic of Benin</span>
           </div>
         </div>
       </div>
@@ -67,7 +68,7 @@
             </div>
             <div>
               <span class="text-[12px] text-gray-700 font-semibold">Agla, Cotonou, Benin</span>
-              <span class="text-[10px] text-gray-700 ml-2">June 2024 - June 2025</span>
+              <span class="text-[10px] text-gray-700 ml-2">06/2024 - 06/2025</span>
             </div>
 
             <div class="flex flex-col mt-3">
@@ -174,7 +175,7 @@
               <span class="text-[12px] text-gray-700 font-semibold"
                 >Scoa Gbeto, Cotonou, Benin</span
               >
-              <span class="text-[10px] text-gray-700 ml-2">March 2023 - March 2024</span>
+              <span class="text-[10px] text-gray-700 ml-2">03/2023 - 03/2024</span>
             </div>
 
             <div class="flex flex-col mt-3">
@@ -221,14 +222,14 @@
               Skills
             </h2>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Programming Languages</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 JavaScript (ES6+), TypeScript, HTML, CSS
               </p>
             </div>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Tech Stack</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 NodeJS, Vue.js, TailwindCSS, NestJS, PostgreSQL, TypeORM, MongoDB, Mongoose, REST
@@ -236,13 +237,46 @@
               </p>
             </div>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Tools</div>
               <p class="text-[12px] text-gray-700 font-normal">
-                Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Firebase, Docker,
-                Netlify, Vercel, Trello
+                VsCode, Cursor, Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Stitch,
+                Firebase, Docker, Netlify, Vercel, Trello
               </p>
             </div>
+
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Additional Skills</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Responsive Design, Cross-browser Compatibility, Backend APIs, Familiar with Agile
+                development methodologies
+              </p>
+            </div>
+            <div class="mt-3 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Soft Skills</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Problem-solving, Teamwork, Autonomy, Communication, Adaptability, Time management, Attention to detail
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col mt-5">
+            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25px] leading-[100%] font-semibold">
+              Personal Project(s)
+            </h2>
+
+            <a
+              href="https://neith-security.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-2 flex flex-col"
+            >
+              <div class="text-gray-700 font-bold text-[13px]">Neith – Link Verifier</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Web application built with Nuxt.js that evaluates the safety and reliability of a
+                URL using the Google Safe Browsing API.
+              </p>
+            </a>
           </div>
 
           <div class="flex flex-col mt-5">
@@ -250,9 +284,9 @@
               Education
             </h2>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">
-                Haute Ecole de Commerce et de Management
+                Haute Ecole de Commerce et de Management (HECM)
               </div>
               <p class="text-[12px] text-gray-700 font-normal">
                 Bachelor's Degree in Computer Science, obtained in 2022.
@@ -262,14 +296,14 @@
 
           <div class="flex flex-col mt-5">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Certifications
+              Certification(s)
             </h2>
 
             <a
               href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
               target="_blank"
               rel="noopener noreferrer"
-              class="mt-3 flex flex-col"
+              class="mt-2 flex flex-col"
             >
               <div class="text-gray-700 font-bold text-[13px]">freeCodeCamp</div>
               <p class="text-[12px] text-gray-700 font-normal">Back End Development and APIs</p>
@@ -278,13 +312,32 @@
 
           <div class="flex flex-col mt-5">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
+              Languages
+            </h2>
+
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">French</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Native / Full professional proficiency (C2)
+              </p>
+            </div>
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">English</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Professional working proficiency (C1)
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="flex flex-col mt-5">
+            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Interests
             </h2>
 
             <p class="mt-3 text-[12px] text-gray-700 font-normal">
               Tech watch and IT news, music production, reading, football
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
