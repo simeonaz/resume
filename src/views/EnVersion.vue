@@ -252,7 +252,7 @@
                 development methodologies
               </p>
             </div>
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Soft Skills</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 Problem-solving, Teamwork, Autonomy, Communication, Adaptability, Time management, Attention to detail

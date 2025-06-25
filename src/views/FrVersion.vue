@@ -7,8 +7,8 @@
             Siméon Azogbonon
           </h1>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
-            Développeur Full Stack spécialisé JavaScript (Node.js, Vue.js, Nuxt, NestJS,
-            TailwindCSS)
+            Développeur JavaScript Full Stack (Node.js, Vue.js, Nuxt, NestJS, TailwindCSS) avec 02
+            années d'expérience professionnelle.
           </p>
         </div>
 
@@ -42,6 +42,7 @@
               rel="noopener noreferrer"
               >simeonaz.netlify.app</a
             >
+            <span>Abomey-Calavi, Républque du Bénin</span>
           </div>
         </div>
       </div>
@@ -237,13 +238,13 @@
               Compétences
             </h2>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Langages de programmation</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 JavaScript (ES6+), TypeScript, HTML, CSS
               </p>
             </div>
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Stack technique</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 NodeJS, Vue.js, Nuxt, TailwindCSS, NestJS, PostgreSQL, TypeORM, MongoDB, Mongoose,
@@ -251,25 +252,39 @@
               </p>
             </div>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">Outils</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 VsCode, Cursor, Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Stitch,
                 Firebase, Docker, Netlify, Vercel, Trello
               </p>
             </div>
+
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Compétences supplémentaires</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Design responsive, intégration de designs Figma
+              </p>
+            </div>
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Soft Skills</div>
+              <p class="text-[12px] text-gray-700 font-normal">
+                Résolution de problèmes, travail en équipe, autonomie, communication, adaptabilité,
+                gestion du temps, attention aux détails
+              </p>
+            </div>
           </div>
 
-          <div class="flex flex-col mt-5">
+          <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Quelques projets personnels
+              Projet(s) personnel(s)
             </h2>
 
             <a
               href="https://neith-security.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="mt-3 flex flex-col"
+              class="mt-2 flex flex-col"
               ><div class="text-gray-700 font-bold text-[13px]">Neith - vérificateur de lien</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 Application web développée avec Nuxt.js permettant d'évaluer la fiabilité d'un lien
@@ -278,12 +293,12 @@
             >
           </div>
 
-          <div class="flex flex-col mt-5">
+          <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Formation
             </h2>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-2 flex flex-col">
               <div class="text-gray-700 font-bold text-[13px]">
                 Haute Ecole de Commerce et de Management
               </div>
@@ -293,16 +308,16 @@
             </div>
           </div>
 
-          <div class="flex flex-col mt-5">
+          <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Certifications
+              Certification(s)
             </h2>
 
             <a
               href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
               target="_blank"
               rel="noopener noreferrer"
-              class="mt-3 flex flex-col"
+              class="mt-2 flex flex-col"
               ><div class="text-gray-700 font-bold text-[13px]">freeCodeCamp</div>
               <p class="text-[12px] text-gray-700 font-normal">
                 Back End Developpement and APIs
@@ -310,12 +325,27 @@
             >
           </div>
 
-          <div class="flex flex-col mt-5">
+          <div class="flex flex-col mt-3">
+            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
+              Langues
+            </h2>
+
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Français</div>
+              <p class="text-[12px] text-gray-700 font-normal">Maîtrise professionnelle complète</p>
+            </div>
+            <div class="mt-2 flex flex-col">
+              <div class="text-gray-700 font-bold text-[13px]">Anglais</div>
+              <p class="text-[12px] text-gray-700 font-normal">Maîtrise professionnelle</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Centres d'intérêt
             </h2>
 
-            <p class="mt-3 text-[12px] text-gray-700 font-normal">
+            <p class="mt-2 text-[12px] text-gray-700 font-normal">
               Veille technologique et actualités informatiques, production musicale, lecture,
               football
             </p>
