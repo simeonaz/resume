@@ -48,7 +48,7 @@
       </div>
 
       <div class="w-full flex justify-between mt-5">
-        <div class="flex flex-col w-[60%]">
+        <div class="flex flex-col w-[65%]">
           <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
             Expérience professionnelle
           </h2>
@@ -91,7 +91,7 @@
 
                 <div class="flex flex-col space-y-1 mt-2 pl-3">
                   <p class="text-[12px] text-gray-700">
-                    • Conception et développement complet du back‑end de l'application Iryka
+                    • Conception et développement complet du backend de l'application Iryka
                     (architecture, sécurité) avec NestJS, TypeORM et PostgreSQL
                   </p>
                   <p class="text-[12px] text-gray-700">
@@ -190,8 +190,8 @@
               <!-- AEP Parakou -->
               <div class="flex flex-col mt-1">
                 <div class="text-gray-700 font-normal text-[12.5px]">
-                  Application de gestion des ouvrages d'approvisionnement en eau potable pour la
-                  mairie de Parakou
+                  Application de gestion des ouvrages d'approvisionnement en eau potable de la
+                  commune de Parakou
                 </div>
                 <div class="text-gray-700 font-normal text-[12.5px] mt-2">
                   Application de gestion d'une école privée
@@ -260,7 +260,7 @@
               <div class="text-gray-700 font-bold text-[13px]">Compétences techniques</div>
               <div class="mt-1 flex flex-col">
                 <p class="text-[12px] text-gray-700">
-                  • Concevoir des interfaces web à partir de design Figma
+                  • Concevoir des interfaces web à partir de designs Figma
                 </p>
                 <p class="text-[12px] text-gray-700">
                   • Développer des applications frontend avec Vue.js / Nuxt et TailwindCSS
