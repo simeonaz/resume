@@ -7,8 +7,8 @@
             Siméon Azogbonon
           </h1>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
-            Développeur JavaScript Full Stack (Node.js, Vue.js, Nuxt, NestJS, TailwindCSS) avec 02
-            années d'expérience professionnelle.
+            Développeur Full Stack (Node.js, Vue.js, Nuxt, NestJS, TailwindCSS) avec 2 ans
+            d'expérience professionnelle.
           </p>
         </div>
 
@@ -26,7 +26,7 @@
               title="Numéro de téléphone"
               target="_blank"
               rel="noopener noreferrer"
-              >+229 01 53 988 208</a
+              >+229 01 53 98 82 08</a
             >
             <a
               href="http://github.com/simeonaz"
@@ -56,7 +56,7 @@
           <!-- TOK Services -->
           <div class="mt-3 flex flex-col">
             <div class="flex items-end space-x-1">
-              <h4 class="text-[14px] text-gray-700 font-normal">Lead développeur full-stack</h4>
+              <h4 class="text-[14px] text-gray-700 font-normal">Développeur Full Stack</h4>
               <span class="text-[10px] text-gray-700 mb-1">•</span>
               <a
                 href="https://tok-services.web.app/"
@@ -64,7 +64,7 @@
                 rel="noopener noreferrer"
                 title="Site web de Tok Services"
                 class="text-[13px] text-gray-700 font-bold"
-                >TOK Services</a
+                >TOK SERVICES</a
               >
             </div>
             <div>
@@ -92,7 +92,7 @@
                 <div class="flex flex-col space-y-1 mt-2 pl-3">
                   <p class="text-[12px] text-gray-700">
                     • Conception et développement complet du back‑end de l'application Iryka
-                    (architecture, sécurité) avec NestJS, TypeORM, PostgreSql
+                    (architecture, sécurité) avec NestJS, TypeORM et PostgreSQL
                   </p>
                   <p class="text-[12px] text-gray-700">
                     • Implémentation de la logique métier pour la personnalisation automatique des
@@ -144,23 +144,23 @@
                   </p>
                   <p class="text-[12px] text-gray-700">
                     • Création de l'API de gestion pour la géolocalisation en temps réel des
-                    dispositifs publicitaires mobiles avec NestJS, TypeORM et PostgreSql
+                    dispositifs publicitaires mobiles avec NestJS, TypeORM et PostgreSQL
                   </p>
                   <p class="text-[12px] text-gray-700">
-                    • Développement du site vitrine de TOK Services
+                    • Développement du site vitrine de TOK SERVICES
                   </p>
                 </div>
               </div>
 
-              <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
+              <!-- <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
                 <span class="font-semibold mr-1">Référence:</span>
                 <p class="font-medium text-gray-700">
-                  M. Cédric TOKPONSI • DG TOK Services & Panneau Mobile (<a
+                  M. Cédric TOKPONSI • DG TOK SERVICES & Panneau Mobile (<a
                     href="tel:+2290167790998"
-                    >+229 01 67 790 998</a
+                    >+229 01 67 79 09 98</a
                   >)
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -212,143 +212,116 @@
                   </p>
                 </div>
               </div>
-
-              <!-- Environnement technique -->
-              <!-- <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700">
-                <span class="font-semibold mr-1 w-[40%]">Environnement technique:</span>
-                <p class="font-medium">Vue.js, Node.js, NestJS, MongoDB, PHP, CodeIgniter</p>
-              </div> -->
-
-              <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
-                <span class="font-semibold mr-1">Référence:</span>
-                <p class="font-medium text-gray-700">
-                  M. Habib DONOU • Chef Département Systèmes d'informations à Euphorbia Group (<a
-                    href="tel:+2290197283688"
-                    >+229 01 97 283 688</a
-                  >)
-                </p>
-              </div>
             </div>
+          </div>
+          <div class="mt-5 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
+            <span class="font-semibold text-[13px]">Références :</span>
+            <p class="font-medium text-gray-700">disponibles sur demande</p>
           </div>
         </div>
 
         <div class="w-[30%]">
           <div class="flex flex-col">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Compétences
-            </h2>
-
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Langages de programmation</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                JavaScript (ES6+), TypeScript, HTML, CSS
-              </p>
-            </div>
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Stack technique</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                NodeJS, Vue.js, Nuxt, TailwindCSS, NestJS, PostgreSQL, TypeORM, MongoDB, Mongoose,
-                APIs REST
-              </p>
-            </div>
-
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Outils</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                VsCode, Cursor, Git, Github, Gitlab, Postman, Swagger, Figma, Framer Motion, Stitch,
-                Firebase, Docker, Netlify, Vercel, Trello
-              </p>
-            </div>
-
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Compétences supplémentaires</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                Design responsive, intégration de designs Figma
-              </p>
-            </div>
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Soft Skills</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                Résolution de problèmes, travail en équipe, autonomie, communication, adaptabilité,
-                gestion du temps, attention aux détails
-              </p>
-            </div>
-          </div>
-
-          <div class="flex flex-col mt-3">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Projet(s) personnel(s)
-            </h2>
-
-            <a
-              href="https://neith-security.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="mt-2 flex flex-col"
-              ><div class="text-gray-700 font-bold text-[13px]">Neith - vérificateur de lien</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                Application web développée avec Nuxt.js permettant d'évaluer la fiabilité d'un lien
-                via l'API Google Safe Browsing.
-              </p></a
-            >
-          </div>
-
-          <div class="flex flex-col mt-3">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Formation
             </h2>
 
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">
-                Haute Ecole de Commerce et de Management
+            <div class="mt-1 flex flex-col">
+              <div class="text-gray-700 font-bold text-[12px]">
+                Licence Professionnelle en Systèmes Informatiques et Logiciels
               </div>
               <p class="text-[12px] text-gray-700 font-normal">
-                Licence Professionnelle en Systèmes Informatiques et Logiciels obtenue en 2022.
+                Obtenue en 2022, à la Haute Ecole de Management et de Commerce (HECM).
               </p>
             </div>
           </div>
 
           <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Certification(s)
+              Certification
             </h2>
 
             <a
               href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
               target="_blank"
               rel="noopener noreferrer"
-              class="mt-2 flex flex-col"
-              ><div class="text-gray-700 font-bold text-[13px]">freeCodeCamp</div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                Back End Developpement and APIs
-              </p></a
+              class="mt-1"
+              ><div class="text-gray-700 font-bold text-[12px]">Développement Back End et APIs</div>
+              <p class="text-[12px] text-gray-700 font-normal">freeCodeCamp</p></a
             >
           </div>
 
           <div class="flex flex-col mt-3">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Langues
+              Compétences
             </h2>
 
             <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Français</div>
-              <p class="text-[12px] text-gray-700 font-normal">Maîtrise professionnelle complète</p>
-            </div>
-            <div class="mt-2 flex flex-col">
-              <div class="text-gray-700 font-bold text-[13px]">Anglais</div>
-              <p class="text-[12px] text-gray-700 font-normal">Maîtrise professionnelle</p>
+              <div class="text-gray-700 font-bold text-[13px]">Compétences techniques</div>
+              <div class="mt-1 flex flex-col">
+                <p class="text-[12px] text-gray-700">
+                  • Concevoir des interfaces web à partir de design Figma
+                </p>
+                <p class="text-[12px] text-gray-700">
+                  • Développer des applications frontend avec Vue.js / Nuxt et TailwindCSS
+                </p>
+                <p class="text-[12px] text-gray-700">
+                  • Créer et intégrer des APIs REST avec Node.js et NestJS
+                </p>
+                <p class="text-[12px] text-gray-700">
+                  • Gérer le versioning et collaborer avec Git, GitHub / GitLab
+                </p>
+                <p class="text-[12px] text-gray-700">
+                  • Optimiser l’expérience utilisateur (UX) et la performance web
+                </p>
+                <p class="text-[12px] text-gray-700">
+                  • Rédiger la documentation technique (Swagger, Postman)
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="flex flex-col mt-3">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Centres d'intérêt
-            </h2>
+          <div class="flex flex-col mt-2">
+            <h3 class="text-gray-700 font-bold text-[13px]">Stack technique</h3>
+            <div class="mt-1 flex flex-col space-y-1">
+              <p class="text-[12px] text-gray-700 font-normal">
+                • Langages : JavaScript (ES6+), TypeScript, HTML5, CSS3
+              </p>
+              <p class="text-[12px] text-gray-700 font-normal">
+                • Frontend : Vue.js, Nuxt.js, TailwindCSS
+              </p>
+              <p class="text-[12px] text-gray-700 font-normal">
+                • Backend : Express, NestJS, REST APIs
+              </p>
+              <p class="text-[12px] text-gray-700 font-normal">
+                • Base de données : PostgreSQL, MongoDB
+              </p>
+              <p class="text-[12px] text-gray-700 font-normal">• ORM / ODM : TypeORM, Mongoose</p>
+              <p class="text-[12px] text-gray-700 font-normal">
+                • Outils & autres : VsCode, Cursor, Git, GitHub, GitLab, Postman, Swagger, Netlify,
+                Vercel, Docker
+              </p>
+            </div>
+          </div>
 
-            <p class="mt-2 text-[12px] text-gray-700 font-normal">
-              Veille technologique et actualités informatiques, production musicale, lecture,
-              football
-            </p>
+          <div class="flex flex-col mt-2">
+            <h3 class="text-gray-700 font-bold text-[13px]">Compétences transversales</h3>
+            <div class="mt-1 flex flex-col font-normal">
+              <p class="text-[12px] text-gray-700">• Résolution de problèmes</p>
+              <p class="text-[12px] text-gray-700">• Travail en équipe</p>
+              <p class="text-[12px] text-gray-700">• Autonomie</p>
+              <p class="text-[12px] text-gray-700">• Adaptabilité</p>
+              <p class="text-[12px] text-gray-700">• Gestion du temps</p>
+              <p class="text-[12px] text-gray-700">• Esprit critique</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col mt-2">
+            <h3 class="text-gray-700 font-bold text-[13px]">Langues</h3>
+            <div class="mt-1 flex flex-col font-normal">
+              <p class="text-[12px] text-gray-700">• Français : courant (natif)</p>
+              <p class="text-[12px] text-gray-700">• Anglais : niveau intermédiaire (B1)</p>
+            </div>
           </div>
         </div>
       </div>
