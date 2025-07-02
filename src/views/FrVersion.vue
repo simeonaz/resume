@@ -1,14 +1,16 @@
 <template>
   <main class="flex justify-center body">
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[10mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
             Siméon Azogbonon
           </h1>
-          <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
-            Développeur Web Full Stack avec 2 ans d'expérience professionnelle, je suis passionné
-            par l'Intelligence Artificielle et les technologies web.
+          <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
+          <p class="text-[12px] text-gray-700 w-[85%] font-normal">
+            Développeur Web avec 2 ans d'expérience, je suis passionné par les technologies web et
+            l'Intelligence Artificielle, un domaine dans lequel je souhaite me spécialiser à travers
+            un master.
           </p>
         </div>
 
@@ -74,7 +76,7 @@
               <h5 class="text-[13px] text-gray-700 font-bold">Projets clés</h5>
               <!-- Iryka -->
               <div class="flex flex-col mt-1">
-                <div class="text-gray-700 font-medium text-[13px]">
+                <div class="text-gray-700 font-medium text-[15px]">
                   Application
                   <a
                     href="http://app.iryka.com"
@@ -84,14 +86,19 @@
                     >Iryka</a
                   >: Générateur de sites web à partir de templates, e-commerce et gestion de
                   rendez-vous
+                  <!-- –
+                  <a
+                    href="http://app.iryka.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]"
+                    >voir l'application</a
+                  > -->
                 </div>
 
                 <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
-                  <p>• Développement complet du backend avec NestJS, TypeORM et PostgreSQL</p>
-                  <p>
-                    • Développement de la majeure partie du front-end avec intégration responsive
-                    avec Vue.js et TailwindCSS
-                  </p>
+                  <p>• Conception et développement du backend avec NestJS, TypeORM et PostgreSQL</p>
+                  <p>• Développement front-end responsive avec Vue.js et TailwindCSS</p>
                   <p>
                     • Implémentation de la logique métier pour la personnalisation automatique des
                     sites web
@@ -101,7 +108,7 @@
                     ligne)
                   </p>
                   <p>
-                    • Mise en place du système de gestion de rendez-vous p(lanification, prise et
+                    • Mise en place du système de gestion de rendez-vous (planification, prise et
                     notifications)
                   </p>
                   <p>• Participation à l'architecture globale et aux choix techniques</p>
@@ -113,7 +120,7 @@
               </div>
               <!-- Panneau mobile -->
               <div class="flex flex-col mt-3">
-                <div class="text-gray-700 font-medium text-[13px]">
+                <div class="text-gray-700 font-medium text-[15px]">
                   Application de gestion et espace client de
                   <a
                     href="http://panneaumobile.co"
@@ -122,24 +129,31 @@
                     title="Site web de Panneau Mobile"
                     >Panneau Mobile</a
                   >
+                  <!-- –
+                  <a
+                    href="http://pige.panneaumobile.co"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]"
+                    >voir l'application</a
+                  > -->
                 </div>
 
                 <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
                   <p>• Mise à jour du système de gestion des services clients</p>
-                  <p>• Mise à jour du site vitrine de Panneau Mobile</p>
-                  <p>• Développement d'interfaces utilisateurs avec Vue.js</p>
+                  <p>• Développement d'interfaces utilisateurs avec Vue.js et TailwindCSS</p>
                   <p>
                     • Création de l'API de gestion pour la géolocalisation en temps réel des
                     dispositifs publicitaires mobiles avec NestJS, TypeORM et PostgreSQL
                   </p>
+                  <p>• Mise à jour du site vitrine de Panneau Mobile</p>
                 </div>
               </div>
 
               <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
                 <span class="font-semibold mr-1">Référence:</span>
                 <p class="font-normal text-gray-700">
-                  M. Cédric TOKPONSI • DG TOK SERVICES & Panneau Mobile (<a
-                    href="tel:+2290167790998"
+                  M. Cédric TOKPONSI • DG TOK SERVICES (<a href="tel:+2290167790998"
                     >+229 01 67 79 09 98</a
                   >)
                 </p>
@@ -153,7 +167,7 @@
               <div class="flex justify-between text-[13px] font-semibold text-gray-800">
                 <span
                   >Stagiaire Développeur Web –
-                  <span class="text-[#1d4ed8]">Euphorbia Group</span></span
+                  <span class="text-[#1d4ed8]">EUPHORBIA GROUP</span></span
                 >
                 <span class="italic text-gray-600 font-normal text-[12px]"
                   >mars 2023 – mars 2024</span
@@ -166,14 +180,22 @@
               <h5 class="text-[13px] text-gray-700 font-bold">Projets clés</h5>
               <!-- AEP Parakou -->
               <div class="flex flex-col mt-1">
-                <div class="text-gray-700 font-medium text-[13px]">
+                <div class="text-gray-700 font-medium text-[15px]">
                   Application de gestion des ouvrages d'approvisionnement en eau potable de la
                   commune de Parakou
+                  <!-- –
+                  <a
+                    href="https://aep.parakou.bj/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]"
+                    >voir l'application</a
+                  > -->
                 </div>
-                <div class="text-gray-700 font-medium text-[13px] mt-1">
+                <div class="text-gray-700 font-medium text-[15px] mt-1">
                   Application de gestion d'une école privée
                 </div>
-                <div class="text-gray-700 font-medium text-[13px] mt-1">
+                <div class="text-gray-700 font-medium text-[15px] mt-1">
                   Application de gestion de la mutuelle de Euphorbia Group
                 </div>
                 <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
@@ -204,7 +226,7 @@
             <div class="mt-1 flex flex-col">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12px]">
-                  Licence Pro en Systèmes Informatiques et Logiciels
+                  Licence Professionnelle en Systèmes Informatiques et Logiciels
                 </div>
                 <div class="text-[12px] text-gray-500 italic">2022</div>
               </div>
@@ -221,64 +243,65 @@
                 <div class="text-[12px] text-gray-500 italic">2023</div>
               </div>
               <p class="text-[12px] text-gray-700 font-normal">
-                freeCodeCamp –
+                freeCodeCamp
+                <!-- –
                 <a
                   href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-blue-600 underline"
                   >voir la certification</a
-                >
+                > -->
               </p>
             </div>
           </div>
 
-          <div class="flex flex-col mt-5">
+          <div class="flex flex-col mt-4">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Compétences
             </h2>
 
             <div class="mt-2 flex flex-col">
               <h3 class="text-gray-700 font-semibold text-[13px]">Compétences techniques</h3>
-              <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700">
-                <p>• Concevoir des interfaces web à partir de designs Figma</p>
-                <p>• Développer des applications frontend avec Vue.js / Nuxt et TailwindCSS</p>
-                <p>• Concevoir et intégrer des APIs REST avec Node.js et NestJS</p>
-                <p>• Gérer le versioning et collaborer avec Git (GitHub, GitLab)</p>
-                <p>• Optimiser l’expérience utilisateur (UX) et la performance web</p>
-                <p>• Rédiger la documentation technique (Swagger, Postman)</p>
+              <div class="mt-1 flex flex-col space-y-1.5 text-[12.5px] text-gray-700 font-normal">
+                <p>• Conception d’interfaces web à partir de maquettes Figma</p>
+                <p>• Développement frontend avec Vue.js, Nuxt.js et TailwindCSS</p>
+                <p>• Création et intégration d’APIs REST avec Node.js et NestJS</p>
+                <p>• Manipulation de bases de données PostgreSQL (TypeORM) et MongoDB (Mongoose)</p>
+                <p>• Gestion de versions et collaboration avec Git, GitHub, GitLab</p>
+                <p>• Rédaction de documentation technique avec Swagger et Postman</p>
+                <p>• Utilisation des outils : VS Code, Cursor, Docker</p>
+                <p>• Déploiement sur Netlify et Vercel</p>
+                <p>• Langages maîtrisés : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col mt-2">
+              <h3 class="text-gray-700 font-semibold text-[13px]">Compétences transversales</h3>
+              <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
+                <p>• Résolution de problèmes</p>
+                <p>• Travail en équipe</p>
+                <p>• Autonomie</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col mt-2">
+              <h3 class="text-gray-700 font-bold text-[13px]">Compétences linguistiques</h3>
+              <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
+                <p>• Français: courant (natif)</p>
+                <p>• Anglais: niveau intermédiaire (B1)</p>
               </div>
             </div>
           </div>
 
-          <div class="flex flex-col mt-2">
-            <h3 class="text-gray-700 font-semibold text-[13px]">Stack technique</h3>
+          <div class="flex flex-col mt-4">
+            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
+              Loisirs
+            </h2>
             <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <p>• Langages: JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
-              <p>• Frameworks: Vue.js, Nuxt.js, TailwindCSS, ExpressJS, NestJS</p>
-              <p>• Base de données: PostgreSQL (TypeORM), MongoDB (Mongoose)</p>
-              <p>• ORM / ODM: TypeORM, Mongoose</p>
-              <p>
-                • Outils & autres: VS Code, Cursor, Git, GitHub, GitLab, Postman, Swagger, Netlify,
-                Vercel, Docker
-              </p>
-            </div>
-          </div>
-
-          <div class="flex flex-col mt-2">
-            <h3 class="text-gray-700 font-semibold text-[13px]">Compétences transversales</h3>
-            <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <p>• Résolution de problèmes</p>
-              <p>• Travail en équipe</p>
-              <p>• Autonomie</p>
-            </div>
-          </div>
-
-          <div class="flex flex-col mt-2">
-            <h3 class="text-gray-700 font-bold text-[13px]">Compétences linguistiques</h3>
-            <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <p>• Français: courant (natif)</p>
-              <p>• Anglais: niveau intermédiaire (B1)</p>
+              <p>• Production musicale</p>
+              <p>• Lecture</p>
+              <p>• Veille technologique et actualités informatiques</p>
             </div>
           </div>
         </div>
