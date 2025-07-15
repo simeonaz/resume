@@ -1,4 +1,4 @@
-# resume
+# Siméon Azogbonon's resume
 
 This project is the source code of my resume, written with Vue 3, HTML, and Tailwind CSS.
 
