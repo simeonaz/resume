@@ -1,7 +1,9 @@
 {
-  "name": "resume",
-  "version": "0.0.0",
+  "name": "simeon-azogbonon-resume",
+  "version": "0.0.1",
   "private": true,
+  "description": "My resume source code",
+  "author": "Simeon Azogbonon <simeonazogbonon@gmail.com>",
   "type": "module",
   "scripts": {
     "dev": "vite",
