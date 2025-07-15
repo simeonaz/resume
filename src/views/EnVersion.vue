@@ -1,6 +1,7 @@
 <template>
   <main class="flex justify-center body">
-    <div class="bg-white w-[210mm] h-[297mm] p-[10mm] flex flex-col">
+    <!-- div to download -->
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
@@ -52,7 +53,7 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between mt-5">
+      <div class="w-full flex justify-between mt-4">
         <div class="flex flex-col w-[65%]">
           <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
             Professional Experience
@@ -88,7 +89,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-600 underline text-[12px]"
-                    >view application</a
+                    >view</a
                   >
                 </div>
 
@@ -121,7 +122,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-600 underline text-[12px]"
-                    >view app</a
+                    >view</a
                   >
                 </div>
 
@@ -172,11 +173,18 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-600 underline text-[12px]"
-                    >view application</a
+                    >view</a
                   >
                 </div>
                 <div class="text-gray-700 font-medium text-[15px] mt-1">
                   Private school management application
+                  <a
+                    href="https://axena.euphorbiagroup.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]"
+                    >view</a
+                  >
                 </div>
                 <div class="text-gray-700 font-medium text-[15px] mt-1">
                   Mutual insurance management application for Euphorbia Group
@@ -218,7 +226,7 @@
               </p>
             </div>
 
-            <div class="mt-2 flex flex-col">
+            <div class="mt-1 flex flex-col">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12px]">
                   Back End Development and APIs
@@ -232,9 +240,17 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-blue-600 underline"
-                  >view certification</a
+                  >view</a
                 >
               </p>
+            </div>
+
+            <div class="mt-1 flex flex-col">
+              <div class="flex justify-between">
+                <div class="text-gray-700 font-semibold text-[12px]">API Design</div>
+                <div class="text-[12px] text-gray-500 italic">2025</div>
+              </div>
+              <p class="text-[12px] text-gray-700 font-normal">API Academy</p>
             </div>
           </div>
 
@@ -251,6 +267,7 @@
                 <p>• Created and integrated REST APIs with Node.js and NestJS</p>
                 <p>• Manipulated databases with PostgreSQL (TypeORM) and MongoDB (Mongoose)</p>
                 <p>• Used version control and collaborated with Git, GitHub, GitLab</p>
+                <p>• Implemented CI/CD workflows with GitHub Actions</p>
                 <p>• Wrote technical documentation with Swagger and Postman</p>
                 <p>• Used tools: VS Code, Cursor, Docker</p>
                 <p>• Deployed on Netlify and Vercel</p>

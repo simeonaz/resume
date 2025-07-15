@@ -1,6 +1,8 @@
 # resume
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is the source code of my resume, written with Vue 3, HTML, and Tailwind CSS.
+
+Each page of my resume is a Vue component. To download my resume as a PDF, I use the [tailwindpdf](https://tailwindpdf.com/) platform, which allows me to select the div from each page/component and download it as a PDF file.
 
 ## Recommended IDE Setup
 
@@ -31,5 +33,4 @@ npm run build
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
-```
+npm

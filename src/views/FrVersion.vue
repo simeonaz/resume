@@ -1,5 +1,6 @@
 <template>
   <main class="flex justify-center body">
+    <!-- div to download -->
     <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
@@ -269,9 +270,10 @@
                 <p>• Création et intégration d’APIs REST avec Node.js et NestJS</p>
                 <p>• Manipulation de bases de données PostgreSQL (TypeORM) et MongoDB (Mongoose)</p>
                 <p>• Gestion de versions et collaboration avec Git, GitHub, GitLab</p>
+                <p>• Mise en place de workflows CI/CD avec GitHub Actions</p>
                 <p>• Rédaction de documentation technique avec Swagger et Postman</p>
-                <p>• Utilisation des outils : VS Code, Cursor, Docker</p>
-                <p>• Déploiement sur Netlify et Vercel</p>
+                <!-- <p>• Utilisation des outils : VS Code, Cursor, Docker</p>
+                <p>• Déploiement sur Netlify et Vercel</p> -->
                 <p>• Langages maîtrisés : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
               </div>
             </div>
