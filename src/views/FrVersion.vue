@@ -1,7 +1,7 @@
 <template>
   <main class="flex justify-center body">
     <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[8mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
@@ -9,45 +9,25 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            Développeur Web avec 2 ans d'expérience, je suis passionné par les technologies web et
+            Développeur Front-end passionné (Vue.js, Nuxt.js, TailwindCSS) avec 02 ans d'expérience, et de solides
+            compétences en Back-end
+            (Node.js, NestJS, PostgreSQL).
+            <!-- Développeur Web avec 2 ans d'expérience, je suis passionné par les technologies web et
             l'Intelligence Artificielle, un domaine dans lequel je souhaite me spécialiser à travers
-            un master.
+            un master. -->
           </p>
         </div>
 
         <div class="flex items-center w-[30%]">
           <div class="flex flex-col text-[12px] text-gray-700">
-            <a
-              href="mailto:simeonazogbonon@gmail.com"
-              title="Email"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              simeonazogbonon@gmail.com</a
-            >
-            <a
-              href="tel:+2290153988208"
-              title="Numéro de téléphone"
-              target="_blank"
-              rel="noopener noreferrer"
-              >+229 01 53 98 82 08</a
-            >
-            <a
-              href="http://github.com/simeonaz"
-              title="Github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github.com/simeonaz</a
-            >
-            <a
-              href="http://simeonaz.netlify.app/"
-              title="Portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              simeonaz.netlify.app</a
-            >
+            <a href="mailto:simeonazogbonon@gmail.com" title="Email" target="_blank" rel="noopener noreferrer">
+              simeonazogbonon@gmail.com</a>
+            <a href="tel:+2290153988208" title="Numéro de téléphone" target="_blank" rel="noopener noreferrer">+229 01
+              53 98 82 08</a>
+            <a href="http://github.com/simeonaz" title="Github" target="_blank" rel="noopener noreferrer">
+              github.com/simeonaz</a>
+            <a href="http://simeonaz.netlify.app/" title="Portfolio" target="_blank" rel="noopener noreferrer">
+              simeonaz.netlify.app</a>
             <span>Abomey-Calavi, République du Bénin</span>
           </div>
         </div>
@@ -63,12 +43,8 @@
           <div class="mt-3 flex flex-col">
             <div class="flex flex-col">
               <div class="flex justify-between text-[13px] font-semibold text-gray-800">
-                <span
-                  >Développeur Full Stack – <span class="text-[#1d4ed8]">TOK SERVICES</span></span
-                >
-                <span class="italic text-gray-600 font-normal text-[12px]"
-                  >juin 2024 – juin 2025</span
-                >
+                <span>Développeur Full Stack – <span class="text-[#1d4ed8]">TOK SERVICES</span></span>
+                <span class="italic text-gray-600 font-normal text-[12px]">juin 2024 – juin 2025</span>
               </div>
               <div class="text-[12px] text-gray-600">Agla, Cotonou, Bénin</div>
             </div>
@@ -79,22 +55,12 @@
               <div class="flex flex-col mt-1">
                 <div class="text-gray-700 font-medium text-[15px]">
                   Application
-                  <a
-                    href="http://app.iryka.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Iryka"
-                    >Iryka</a
-                  >: Générateur de sites web à partir de templates, e-commerce et gestion de
+                  <a href="http://app.iryka.com" target="_blank" rel="noopener noreferrer" title="Iryka">Iryka</a>:
+                  Générateur de sites web à partir de templates, e-commerce et gestion de
                   rendez-vous
-                  <!-- –
-                  <a
-                    href="http://app.iryka.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >voir l'application</a
-                  > -->
+                  –
+                  <a href="http://app.iryka.com" target="_blank" rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]">voir</a>
                 </div>
 
                 <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
@@ -123,21 +89,11 @@
               <div class="flex flex-col mt-3">
                 <div class="text-gray-700 font-medium text-[15px]">
                   Application de gestion et espace client de
-                  <a
-                    href="http://panneaumobile.co"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Site web de Panneau Mobile"
-                    >Panneau Mobile</a
-                  >
-                  <!-- –
-                  <a
-                    href="http://pige.panneaumobile.co"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >voir l'application</a
-                  > -->
+                  <a href="http://panneaumobile.co" target="_blank" rel="noopener noreferrer"
+                    title="Site web de Panneau Mobile">Panneau Mobile</a>
+                  –
+                  <a href="http://pige.panneaumobile.co" target="_blank" rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]">voir</a>
                 </div>
 
                 <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
@@ -154,9 +110,7 @@
               <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
                 <span class="font-semibold mr-1">Référence:</span>
                 <p class="font-normal text-gray-700">
-                  M. Cédric TOKPONSI • DG TOK SERVICES (<a href="tel:+2290167790998"
-                    >+229 01 67 79 09 98</a
-                  >)
+                  M. Cédric TOKPONSI • DG TOK SERVICES (<a href="tel:+2290167790998">+229 01 67 79 09 98</a>)
                 </p>
               </div>
             </div>
@@ -166,13 +120,9 @@
           <div class="mt-5 flex flex-col">
             <div class="flex flex-col">
               <div class="flex justify-between text-[13px] font-semibold text-gray-800">
-                <span
-                  >Stagiaire Développeur Web –
-                  <span class="text-[#1d4ed8]">EUPHORBIA GROUP</span></span
-                >
-                <span class="italic text-gray-600 font-normal text-[12px]"
-                  >mars 2023 – mars 2024</span
-                >
+                <span>Stagiaire Développeur Web –
+                  <span class="text-[#1d4ed8]">EUPHORBIA GROUP</span></span>
+                <span class="italic text-gray-600 font-normal text-[12px]">mars 2023 – mars 2024</span>
               </div>
               <div class="text-[12px] text-gray-600">Scoa Gbeto, Cotonou, Bénin</div>
             </div>
@@ -184,14 +134,9 @@
                 <div class="text-gray-700 font-medium text-[15px]">
                   Application de gestion des ouvrages d'approvisionnement en eau potable de la
                   commune de Parakou
-                  <!-- –
-                  <a
-                    href="https://aep.parakou.bj/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >voir l'application</a
-                  > -->
+                  –
+                  <a href="https://aep.parakou.bj/" target="_blank" rel="noopener noreferrer"
+                    class="text-blue-600 underline text-[12px]">voir</a>
                 </div>
                 <div class="text-gray-700 font-medium text-[15px] mt-1">
                   Application de gestion d'une école privée
@@ -210,9 +155,7 @@
               <span class="font-semibold mr-1">Référence:</span>
               <p class="font-normal text-gray-700">
                 M. Habib DONOU • Chef Département Systèmes d'Informations à Euphorbia Group (<a
-                  href="tel:+2290197283688"
-                  >+229 01 97 28 36 88</a
-                >)
+                  href="tel:+2290197283688">+229 01 97 28 36 88</a>)
               </p>
             </div>
           </div>
@@ -245,14 +188,9 @@
               </div>
               <p class="text-[12px] text-gray-700 font-normal">
                 freeCodeCamp
-                <!-- –
-                <a
-                  href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-blue-600 underline"
-                  >voir la certification</a
-                > -->
+                –
+                <a href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
+                  target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">voir</a>
               </p>
             </div>
           </div>
@@ -271,9 +209,9 @@
                 <p>• Manipulation de bases de données PostgreSQL (TypeORM) et MongoDB (Mongoose)</p>
                 <p>• Gestion de versions et collaboration avec Git, GitHub, GitLab</p>
                 <p>• Mise en place de workflows CI/CD avec GitHub Actions</p>
-                <p>• Rédaction de documentation technique avec Swagger et Postman</p>
-                <!-- <p>• Utilisation des outils : VS Code, Cursor, Docker</p>
-                <p>• Déploiement sur Netlify et Vercel</p> -->
+                <!-- <p>• Rédaction de documentation technique avec Swagger et Postman</p> -->
+                <p>• Utilisation des outils : VS Code, Cursor, Docker, Netlify et Vercel</p>
+                <!-- <p>• Déploiement sur Netlify et Vercel</p> -->
                 <p>• Langages maîtrisés : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
               </div>
             </div>
@@ -301,9 +239,9 @@
               Loisirs
             </h2>
             <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
+              <p>• Veille technologique et actualités informatiques</p>
               <p>• Production musicale</p>
               <p>• Lecture</p>
-              <p>• Veille technologique et actualités informatiques</p>
             </div>
           </div>
         </div>
