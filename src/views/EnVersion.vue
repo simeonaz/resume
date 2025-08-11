@@ -1,7 +1,7 @@
 <template>
   <main class="flex justify-center body">
     <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] p-[10mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
@@ -12,6 +12,8 @@
             Web Developer with 2 years of experience, I am passionate about web technologies and
             Artificial Intelligence, a field in which I wish to specialize through a master's
             degree.
+            <!-- Full Stack Web Developer with 2 years of experience, specializing in Vue.js,
+            Nuxt.js, NestJS, and Tailwind CSS. Demander à ChatGPT -->
           </p>
         </div>
 
@@ -245,13 +247,13 @@
               </p>
             </div>
 
-            <div class="mt-1 flex flex-col">
+            <!-- <div class="mt-1 flex flex-col">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12px]">API Design</div>
                 <div class="text-[12px] text-gray-500 italic">2025</div>
               </div>
               <p class="text-[12px] text-gray-700 font-normal">API Academy</p>
-            </div>
+            </div> -->
           </div>
 
           <div class="flex flex-col mt-4">
@@ -266,12 +268,13 @@
                 <p>• Developed frontend with Vue.js, Nuxt.js and TailwindCSS</p>
                 <p>• Created and integrated REST APIs with Node.js and NestJS</p>
                 <p>• Manipulated databases with PostgreSQL (TypeORM) and MongoDB (Mongoose)</p>
-                <p>• Used version control and collaborated with Git, GitHub, GitLab</p>
+                <p>• Used version control and collaborated with Git</p>
                 <p>• Implemented CI/CD workflows with GitHub Actions</p>
-                <p>• Wrote technical documentation with Swagger and Postman</p>
-                <p>• Used tools: VS Code, Cursor, Docker</p>
-                <p>• Deployed on Netlify and Vercel</p>
+                <!-- <p>• Wrote technical documentation with Swagger and Postman</p> -->
+                <p>• Used tools: VS Code, Cursor, Docker, Netlify, Vercel</p>
+                <!-- <p>• Deployed on Netlify and Vercel</p> -->
                 <p>• Mastered languages: JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
+                <p>• Automation and API integrations with n8n</p>
               </div>
             </div>
 
