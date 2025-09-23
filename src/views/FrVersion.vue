@@ -1,7 +1,7 @@
 <template>
   <main class="flex justify-center body">
     <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[8mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
@@ -9,14 +9,16 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            <!-- Développeur Front-end passionné (Vue.js, Nuxt.js, TailwindCSS) avec 02 ans d'expérience, et de solides
-            compétences en Back-end
-            (Node.js, NestJS, PostgreSQL). -->
+            <!-- Développeur Front-end passionné (Vue.js, Nuxt.js, TailwindCSS) avec 02 ans d'expérience,
+            et de solides compétences en Back-end (Node.js, NestJS, PostgreSQL). -->
             <!-- Développeur Web avec 2 ans d'expérience, je suis passionné par les technologies web et
             l'Intelligence Artificielle, un domaine dans lequel je souhaite me spécialiser à travers
             un master. -->
-            Développeur Web Full Stack avec 2 ans d'expérience, spécialisé dans Vue.js, Nuxt.js,
-            NestJS et Tailwind CSS.
+            <!-- Développeur Web Full Stack avec 2 ans d'expérience, spécialisé  dans Vue.js, Nuxt.js,
+            NestJS et Tailwind CSS. -->
+            Développeur Web Full-Stack avec 2 ans d'expérience professionnelle, spécialisé en
+            JavaScript/TypeScript (Node.js, NestJS, Vue, React). Passionné d'IA, un domaine dans
+            lequel je souhaite me spécialiser à travers un master.
           </p>
         </div>
 
@@ -268,15 +270,15 @@
               <h3 class="text-gray-700 font-semibold text-[13px]">Compétences techniques</h3>
               <div class="mt-1 flex flex-col space-y-1.5 text-[12.5px] text-gray-700 font-normal">
                 <p>• Conception d’interfaces web à partir de maquettes Figma</p>
-                <p>• Développement frontend avec Vue.js, Nuxt.js et TailwindCSS</p>
-                <p>• Création et intégration d’APIs REST avec Node.js et NestJS</p>
-                <p>• Manipulation de bases de données PostgreSQL (TypeORM) et MongoDB (Mongoose)</p>
+                <p>• Développement frontend avec Vue, Nuxt, React et TailwindCSS</p>
+                <p>• Création et intégration d’APIs REST avec Node.js, Express.js et NestJS</p>
+                <p>• Manipulation de bases de données PostgreSQL, MySQL, et MongoDB</p>
                 <p>• Gestion de versions et collaboration avec Git</p>
                 <p>• Mise en place de workflows CI/CD avec GitHub Actions</p>
-                <!-- <p>• Rédaction de documentation technique avec Swagger et Postman</p> -->
                 <p>• Utilisation des outils : VS Code, Cursor, Docker, Netlify et Vercel</p>
-                <p>• Langages maîtrisés : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
+                <p>• Langages de programmation : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
                 <p>• Automatisation et intégrations API avec n8n</p>
+                <p>• Rédaction de documentation technique</p>
               </div>
             </div>
 
@@ -303,7 +305,7 @@
               Loisirs
             </h2>
             <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <p>• Veille technologique et actualités informatiques</p>
+              <!-- <p>• Veille technologique et actualités informatiques</p> -->
               <p>• Production musicale</p>
               <p>• Lecture</p>
             </div>
