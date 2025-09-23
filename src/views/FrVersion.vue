@@ -9,7 +9,7 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            Développeur Web Full-Stack avec 2 ans d'expérience professionnelle, spécialisé en
+            Développeur Web Full Stack avec 2 ans d'expérience professionnelle, spécialisé en
             JavaScript/TypeScript (Node.js, NestJS, Vue, React). Passionné d'IA, un domaine dans
             lequel je souhaite me spécialiser à travers un master.
           </p>
