@@ -9,13 +9,6 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            <!-- Développeur Front-end passionné (Vue.js, Nuxt.js, TailwindCSS) avec 02 ans d'expérience,
-            et de solides compétences en Back-end (Node.js, NestJS, PostgreSQL). -->
-            <!-- Développeur Web avec 2 ans d'expérience, je suis passionné par les technologies web et
-            l'Intelligence Artificielle, un domaine dans lequel je souhaite me spécialiser à travers
-            un master. -->
-            <!-- Développeur Web Full Stack avec 2 ans d'expérience, spécialisé  dans Vue.js, Nuxt.js,
-            NestJS et Tailwind CSS. -->
             Développeur Web Full-Stack avec 2 ans d'expérience professionnelle, spécialisé en
             JavaScript/TypeScript (Node.js, NestJS, Vue, React). Passionné d'IA, un domaine dans
             lequel je souhaite me spécialiser à travers un master.
@@ -276,9 +269,9 @@
                 <p>• Gestion de versions et collaboration avec Git</p>
                 <p>• Mise en place de workflows CI/CD avec GitHub Actions</p>
                 <p>• Utilisation des outils : VS Code, Cursor, Docker, Netlify et Vercel</p>
-                <p>• Langages de programmation : JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
-                <p>• Automatisation et intégrations API avec n8n</p>
+                <p>• Langages de programmation : JavaScript, TypeScript, HTML5, CSS3</p>
                 <p>• Rédaction de documentation technique</p>
+                <!-- <p>• Automatisation et intégrations API avec n8n</p> -->
               </div>
             </div>
 
@@ -305,7 +298,7 @@
               Loisirs
             </h2>
             <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <!-- <p>• Veille technologique et actualités informatiques</p> -->
+              <p>• Actualités informatiques</p>
               <p>• Production musicale</p>
               <p>• Lecture</p>
             </div>
