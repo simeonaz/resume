@@ -1,7 +1,7 @@
 <template>
   <main class="flex justify-center body">
     <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[5mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[8mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
           <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
