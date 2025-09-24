@@ -1,10 +1,10 @@
 <template>
   <main class="flex justify-center body">
     <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[8mm] flex flex-col">
+    <div class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[6mm] flex flex-col">
       <div class="w-full flex justify-between">
         <div class="flex flex-col w-[65%]">
-          <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
+          <h1 class="text-[38px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
             Siméon Azogbonon
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Développeur Web Full Stack</h2>
@@ -222,6 +222,16 @@
               Formations
             </h2>
 
+            <!-- <div class="mt-1 flex flex-col">
+              <div class="flex justify-between">
+                <div class="text-gray-700 font-semibold text-[12px]">
+                  Master of Science Pro en Intelligence Artificielle
+                </div>
+                <div class="text-[12px] text-gray-500 italic">en cours</div>
+              </div>
+              <p class="text-[12px] text-gray-700 font-normal">Epitech Bénin</p>
+            </div> -->
+
             <div class="mt-1 flex flex-col">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12px]">
@@ -268,8 +278,8 @@
                 <p>• Manipulation de bases de données PostgreSQL, MySQL, et MongoDB</p>
                 <p>• Gestion de versions et collaboration avec Git</p>
                 <p>• Mise en place de workflows CI/CD avec GitHub Actions</p>
-                <p>• Utilisation des outils : VS Code, Cursor, Docker, Netlify et Vercel</p>
-                <p>• Langages de programmation : JavaScript, TypeScript, HTML5, CSS3</p>
+                <p>• Utilisation des outils: VS Code, Cursor, Docker, Netlify et Vercel</p>
+                <p>• Langages de programmation: JavaScript, TypeScript, HTML5, CSS3</p>
                 <p>• Rédaction de documentation technique</p>
                 <!-- <p>• Automatisation et intégrations API avec n8n</p> -->
               </div>
