@@ -80,7 +80,7 @@
                 <div class="text-gray-700 font-medium text-[15px]">
                   Application
                   <a
-                    href="http://app.iryka.com"
+                    href="http://iryka.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Iryka"

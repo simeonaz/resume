@@ -9,11 +9,8 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold my-1">Full Stack Web Developer</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            Web Developer with 2 years of experience, I am passionate about web technologies and
-            Artificial Intelligence, a field in which I wish to specialize through a master's
-            degree.
-            <!-- Full Stack Web Developer with 2 years of experience, specializing in Vue.js,
-            Nuxt.js, NestJS, and Tailwind CSS. Demander à ChatGPT -->
+            Web Developer with 2 years of experience, I am passionate about modern web technologies
+            and Artificial Intelligence, a field in which I'm currently pursuing a Master’s degree.
           </p>
         </div>
 
@@ -60,6 +57,22 @@
           <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
             Professional Experience
           </h2>
+
+          <!-- Payplus -->
+          <div class="mt-3 flex flex-col">
+            <div class="flex flex-col">
+              <div class="flex justify-between text-[13px] font-semibold text-gray-800">
+                <span
+                  >Frontend Developer –
+                  <a href="https://lapieuvretechnologique.com/" class="text-[#1d4ed8]"
+                    >LA PIEUVRE TECHNOLOGIQUE</a
+                  ></span
+                >
+                <span class="italic text-gray-600 font-normal text-[12px]">October 2025 – now</span>
+              </div>
+              <div class="text-[12px] text-gray-600">St Jean, Cotonou, Benin</div>
+            </div>
+          </div>
 
           <!-- TOK Services -->
           <div class="mt-3 flex flex-col">
@@ -219,6 +232,16 @@
             <div class="mt-1 flex flex-col">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12px]">
+                  Master's Degree in Artificial Intelligence and Big Data
+                </div>
+                <div class="text-[12px] text-gray-500 italic">In progress – 1st year</div>
+              </div>
+              <p class="text-[12px] text-gray-700 font-normal">ESGIS Bénin</p>
+            </div>
+
+            <div class="mt-1 flex flex-col">
+              <div class="flex justify-between">
+                <div class="text-gray-700 font-semibold text-[12px]">
                   Bachelor's Degree in Computer Science
                 </div>
                 <div class="text-[12px] text-gray-500 italic">2022</div>
@@ -269,12 +292,12 @@
                 <p>• Created and integrated REST APIs with Node.js and NestJS</p>
                 <p>• Manipulated databases with PostgreSQL (TypeORM) and MongoDB (Mongoose)</p>
                 <p>• Used version control and collaborated with Git</p>
-                <p>• Implemented CI/CD workflows with GitHub Actions</p>
+                <p>• Implemented CI/CD workflows with GitHub Actions and Gitlab CI</p>
                 <!-- <p>• Wrote technical documentation with Swagger and Postman</p> -->
                 <p>• Used tools: VS Code, Cursor, Docker, Netlify, Vercel</p>
                 <!-- <p>• Deployed on Netlify and Vercel</p> -->
                 <p>• Mastered languages: JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
-                <p>• Automation and API integrations with n8n</p>
+                <!-- <p>• Automation and API integrations with n8n</p> -->
               </div>
             </div>
 
