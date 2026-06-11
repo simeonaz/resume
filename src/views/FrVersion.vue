@@ -18,9 +18,9 @@
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold mt-2">Développeur Web Full Stack</h2>
           <p class="text-[13px] text-gray-700 w-[85%] font-normal mt-2">
-            Développeur Web Full Stack avec +3 ans d'expérience professionnelle, spécialisé en
-            JavaScript/TypeScript (Node.js, NestJS, Vue, React). <br />Etudiant en Master 1 en
-            Intelligence Artificielle et Big Data à ESGIS Bénin.
+            Développeur Web Full Stack spécialisé en JavaScript/TypeScript (Node.js, NestJS, Vue,
+            React). <br />Etudiant en Master 1 en Intelligence Artificielle et Big Data à ESGIS
+            Bénin.
           </p>
         </div>
 
@@ -76,7 +76,9 @@
                     >Développeur Frontend –
                     <span class="text-[#1d4ed8]">La pieuvre technologique</span></span
                   >
-                  <span class="italic text-gray-600 font-normal text-[12px]">octobre 2025 – </span>
+                  <span class="italic text-gray-600 font-normal text-[12px]"
+                    >octobre 2025 – mai 2026</span
+                  >
                 </div>
                 <div class="text-[12px] text-gray-600">Sikècodji, Cotonou, Bénin</div>
               </div>
@@ -167,14 +169,14 @@
                 <div class="text-[12.5px] text-gray-500 italic">2023</div>
               </div>
               <p class="text-[12.5px] text-gray-700 font-normal">
-                freeCodeCamp –
-                <a
+                freeCodeCamp
+                <!-- – <a
                   href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-blue-600 underline"
                   >voir</a
-                >
+                > -->
               </p>
             </div>
           </div>
@@ -267,13 +269,13 @@ const downloadPDF = async () => {
       windowWidth: element.scrollWidth,
       windowHeight: element.scrollHeight,
       scrollX: 0,
-      scrollY: -window.scrollY
+      scrollY: -window.scrollY,
     })
 
     const pdf = new jsPDF({
       orientation: 'portrait',
       unit: 'mm',
-      format: 'a4'
+      format: 'a4',
     })
 
     const pageWidth = pdf.internal.pageSize.getWidth()
