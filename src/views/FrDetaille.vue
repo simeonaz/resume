@@ -19,7 +19,7 @@
           <h2 class="text-[16px] text-gray-700 font-semibold mt-2">Développeur Web Full Stack</h2>
           <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
             Développeur Web Full Stack spécialisé en JavaScript/TypeScript (Node.js, NestJS, Vue,
-            React). <br />Etudiant en Master 1 en IA et Big Data.
+            React). <br />Étudiant en Master 1 en IA et Big Data.
           </p>
         </div>
 
@@ -83,7 +83,7 @@
               </div>
 
               <div class="flex flex-col mt-2">
-                <h5 class="text-[13px] text-gray-700 font-bold">Projet clé et contributions</h5>
+                <h5 class="text-[13px] text-gray-700 font-bold">Projets clés et contributions</h5>
                 <div class="flex flex-col mt-0.5">
                   <div class="text-gray-700 font-medium text-[14px]">
                     Plateforme GRC (Gouvernance, Risques et Conformité) et Audit
@@ -115,7 +115,7 @@
               </div>
 
               <div class="flex flex-col mt-2">
-                <h5 class="text-[13px] text-gray-700 font-bold">Projets clé et contributions</h5>
+                <h5 class="text-[13px] text-gray-700 font-bold">Projets clés et contributions</h5>
                 <div class="flex flex-col mt-0.5">
                   <div class="text-gray-700 font-medium text-[14px]">
                     Application Iryka : générateur de sites web à partir de template, e-commerce et
@@ -168,10 +168,10 @@
               </div>
 
               <div class="flex flex-col mt-2">
-                <h5 class="text-[13px] text-gray-700 font-bold">Projets clé et contributions</h5>
+                <h5 class="text-[13px] text-gray-700 font-bold">Projets clés et contributions</h5>
                 <div class="flex flex-col mt-0.5">
                   <div class="text-gray-700 font-medium text-[14px]">
-                    Application de gestion des ouvrages d'appovisionnement en eau potable de la
+                    Application de gestion des ouvrages d'approvisionnement en eau potable de la
                     commune de Parakou <br />
                     Application de gestion d'une école privée <br />
                     Application de gestion de personnel et de la mutuelle de Euphorbia Group
@@ -179,8 +179,8 @@
 
                   <div class="flex flex-col space-y-1 mt-1 pl-3 text-[13px] text-gray-700">
                     <p>• Intégration de templates Vue.js pour créer des interfaces utilisateur</p>
-                    <p>• Consommation d'APIs externes pour la gestion des données</p>
-                    <p>• Création d'APIs avec NestJS, CodeIgniter, MySQL, MongoDB</p>
+                    <p>• Consommation d'API externes pour la gestion des données</p>
+                    <p>• Création d'API avec NestJS, CodeIgniter, MySQL, MongoDB</p>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@
 
             <div class="flex flex-col">
               <div class="mt-1 flex flex-col space-y-1.5 text-[13px] text-gray-700 font-normal">
-                <p>• Langages de programmation : JavaScript/TypeScript, Python, HTML5, CSS3</p>
+                <p>• Langages de programmation : JavaScript/TypeScript, Python, HTML5, CSS3, SQL</p>
                 <p>• Développement frontend : Vue, React, TailwindCSS</p>
                 <p>• Développement backend : NestJS, FastAPI</p>
                 <p>• Bases de données : PostgreSQL, MySQL, MongoDB</p>
