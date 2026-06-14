@@ -17,14 +17,14 @@
             Siméon Azogbonon
           </h1>
           <h2 class="text-[16px] text-gray-700 font-semibold mt-2">Développeur Web Full Stack</h2>
-          <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-2">
+          <p class="text-[12px] text-gray-700 w-[85%] font-normal mt-1">
             Développeur Web Full Stack spécialisé en JavaScript/TypeScript (Node.js, NestJS, Vue,
             React). <br />Etudiant en Master 1 en IA et Big Data.
           </p>
         </div>
 
         <div class="flex items-center w-[30%]">
-          <div class="flex flex-col text-[13px] text-gray-700">
+          <div class="flex flex-col text-[12px] text-gray-700">
             <a
               href="mailto:simeonazogbonon@gmail.com"
               title="Email"
@@ -68,7 +68,7 @@
               Expériences professionnelles
             </h2>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-1 flex flex-col">
               <div class="flex flex-col">
                 <div class="flex justify-between text-[13px] font-semibold text-gray-800">
                   <span
@@ -82,15 +82,26 @@
                 <div class="text-[12px] text-gray-600">Sikècodji, Cotonou, Bénin</div>
               </div>
 
-              <div class="flex flex-col mt-2.5 space-y-1">
-                <p class="text-[13px] text-gray-700">
-                  Développement frontend (Vue.js 3, TypeScript) d'applications web modernes et
-                  performantes.
-                </p>
+              <div class="flex flex-col mt-2">
+                <h5 class="text-[13px] text-gray-700 font-bold">Projet clé et contributions</h5>
+                <div class="flex flex-col mt-0.5">
+                  <div class="text-gray-700 font-medium text-[14px]">
+                    Plateforme GRC (Gouvernance, Risques et Conformité) et Audit
+                  </div>
+
+                  <div class="flex flex-col space-y-1 mt-1 pl-3 text-[13px] text-gray-700">
+                    <p>
+                      • Développement d'interfaces web responsives et intuitives avec Vue et
+                      Tailwind
+                    </p>
+                    <p>• Intégration des APIs et gestion des flux de données</p>
+                    <p>• Optimisation des performances et de l'expérience utilisateur</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="mt-3 flex flex-col">
+            <div class="mt-5 flex flex-col">
               <div class="flex flex-col">
                 <div class="flex justify-between text-[13px] font-semibold text-gray-800">
                   <span
@@ -103,11 +114,42 @@
                 <div class="text-[12px] text-gray-600">Agla, Cotonou, Bénin</div>
               </div>
 
-              <div class="flex flex-col mt-2.5 space-y-1">
-                <p class="text-[13px] text-gray-700">
-                  Développement full stack (NestJS, PostgreSQL, Vue.js) d'applications SaaS, de
-                  systèmes de gestion client et d'APIs de géolocalisation en temps réel.
-                </p>
+              <div class="flex flex-col mt-2">
+                <h5 class="text-[13px] text-gray-700 font-bold">Projets clé et contributions</h5>
+                <div class="flex flex-col mt-0.5">
+                  <div class="text-gray-700 font-medium text-[14px]">
+                    Application Iryka : générateur de sites web à partir de template, e-commerce et
+                    gestion de rendez-vous
+                  </div>
+
+                  <div class="flex flex-col space-y-1 mt-1 pl-3 text-[13px] text-gray-700">
+                    <p>
+                      • Conception et développement du backend avec NestJS, TypeORM et PostgreSQL
+                    </p>
+                    <p>• Développement du frontend avec Vue.js et Tailwind</p>
+                    <p>
+                      • Intégration des fonctionnalités e-commerce (catalogue, panier, paiement en
+                      ligne)
+                    </p>
+                    <p>• Participation à l'architecture globale et aux choix techniques</p>
+                  </div>
+                </div>
+
+                <div class="flex flex-col mt-3">
+                  <div class="text-gray-700 font-medium text-[14px]">
+                    Application de gestion et espace client de Panneau Mobile (entreprise de
+                    publicité)
+                  </div>
+
+                  <div class="flex flex-col space-y-1 mt-1 pl-3 text-[13px] text-gray-700">
+                    <p>• Mise à jour du système de gestion des services clients</p>
+                    <p>• Développement d'interfaces utilisateur intuitives avec Vue et Tailwind</p>
+                    <p>
+                      • Création de l'API de gestion pour la géolocalisation en temps réel des
+                      dispositifs publicitaires avec NestJS et PostgreSQL
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -125,20 +167,34 @@
                 <div class="text-[12px] text-gray-600">Scoa Gbeto, Cotonou, Bénin</div>
               </div>
 
-              <div class="flex flex-col mt-3 space-y-1">
-                <p class="text-[13px] text-gray-700">
-                  Développement d'applications web d'entreprise (Vue.js, NestJS, CodeIgniter).
-                </p>
+              <div class="flex flex-col mt-2">
+                <h5 class="text-[13px] text-gray-700 font-bold">Projets clé et contributions</h5>
+                <div class="flex flex-col mt-0.5">
+                  <div class="text-gray-700 font-medium text-[14px]">
+                    Application de gestion des ouvrages d'appovisionnement en eau potable de la
+                    commune de Parakou <br />
+                    Application de gestion d'une école privée <br />
+                    Application de gestion de personnel et de la mutuelle de Euphorbia Group
+                  </div>
+
+                  <div class="flex flex-col space-y-1 mt-1 pl-3 text-[13px] text-gray-700">
+                    <p>• Intégration de templates Vue.js pour créer des interfaces utilisateur</p>
+                    <p>• Consommation d'APIs externes pour la gestion des données</p>
+                    <p>• Création d'APIs avec NestJS, CodeIgniter, MySQL, MongoDB</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="mt-6 flex flex-col space-y-2">
+        <div class="w-[30%]">
+          <div class="flex flex-col space-y-2">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25px] leading-[100%] font-semibold">
               Formations
             </h2>
 
-            <div class="mt-1 flex flex-col space-y-2">
+            <div class="mt-1 flex flex-col space-y-1">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12.5px]">
                   Master 1 en Intelligence Artificielle et Big Data
@@ -148,19 +204,17 @@
               <p class="text-[12.5px] text-gray-700 font-normal">ESGIS Bénin</p>
             </div>
 
-            <div class="mt-1 flex flex-col space-y-2">
+            <div class="mt-1 flex flex-col space-y-1">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12.5px]">
                   Licence Professionnelle en Systèmes Informatiques et Logiciels
                 </div>
                 <div class="text-[12.5px] text-gray-500 italic">2022</div>
               </div>
-              <p class="text-[12.5px] text-gray-700 font-normal">
-                Haute École de Management et de Commerce (HECM)
-              </p>
+              <p class="text-[12.5px] text-gray-700 font-normal">HECM Calavi</p>
             </div>
 
-            <div class="mt-2 flex flex-col space-y-2">
+            <div class="mt-2 flex flex-col space-y-1">
               <div class="flex justify-between">
                 <div class="text-gray-700 font-semibold text-[12.5px]">
                   Développement Back-end et APIs
@@ -180,27 +234,24 @@
             </div>
           </div>
 
-          <div class="mt-6 flex flex-col space-y-2">
+          <div class="mt-5 flex flex-col space-y-2">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25px] leading-[100%] font-semibold">
               Compétences techniques
             </h2>
 
             <div class="flex flex-col">
               <div class="mt-1 flex flex-col space-y-1.5 text-[13px] text-gray-700 font-normal">
-                <p>• Langages de programmation: JavaScript/TypeScript, Python, HTML5, CSS3</p>
-                <p>• Développement frontend avec Vue, Nuxt, React et TailwindCSS</p>
-                <p>• Développement backend avec NestJS et FastAPI</p>
-                <p>• Manipulation de bases de données PostgreSQL, MySQL, et MongoDB</p>
-                <p>• Gestion de versions et collaboration avec Git, GitHub et GitLab</p>
-                <p>• Outils: VS Code, Cursor, Docker, Claude AI, Antigravity</p>
+                <p>• Langages de programmation : JavaScript/TypeScript, Python, HTML5, CSS3</p>
+                <p>• Développement frontend : Vue, React, TailwindCSS</p>
+                <p>• Développement backend : NestJS, FastAPI</p>
+                <p>• Bases de données : PostgreSQL, MySQL, MongoDB</p>
+                <p>• Outils: Git, Cursor, Docker, Claude AI, Antigravity AI</p>
                 <p>• Rédaction de documentation technique</p>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w-[30%]">
-          <div class="flex flex-col">
+          <div class="mt-5 flex flex-col">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Compétences transversales
             </h2>
@@ -224,7 +275,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col mt-5">
+          <!-- <div class="flex flex-col mt-5">
             <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
               Loisirs
             </h2>
@@ -233,7 +284,7 @@
               <p>• Production musicale</p>
               <p>• Lecture</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
