@@ -1,6 +1,18 @@
 <template>
   <main class="flex justify-center body flex-col">
-    <div class="flex justify-center mb-6 mt-4">
+    <div class="flex justify-center mb-6 mt-4 items-center space-x-3">
+      <label for="quality" class="text-sm text-gray-700">Qualité :</label>
+      <select
+        id="quality"
+        v-model="selectedQuality"
+        class="px-3 py-2 border rounded-md text-sm"
+        :disabled="isGenerating"
+      >
+        <option value="current">Qualité actuelle</option>
+        <option value="medium">Moyenne</option>
+        <option value="best">Meilleure</option>
+      </select>
+
       <button
         @click="downloadPDF"
         :disabled="isGenerating"
@@ -297,6 +309,7 @@ import html2canvas from 'html2canvas-pro'
 import { jsPDF } from 'jspdf'
 
 const isGenerating = ref(false)
+const selectedQuality = ref('current')
 
 const downloadPDF = async () => {
   const element = document.getElementById('cv')
@@ -307,7 +320,14 @@ const downloadPDF = async () => {
   try {
     await document.fonts.ready
 
-    const scale = Math.min(4, Math.max(3, window.devicePixelRatio * 2))
+    let scale
+    if (selectedQuality.value === 'current') {
+      scale = Math.min(4, Math.max(3, window.devicePixelRatio * 2))
+    } else if (selectedQuality.value === 'medium') {
+      scale = 2
+    } else {
+      scale = 4
+    }
 
     const canvas = await html2canvas(element, {
       scale,
