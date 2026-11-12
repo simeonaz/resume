@@ -1,344 +1,282 @@
 <template>
-  <main class="flex justify-center body">
-    <!-- div to download -->
-    <div class="bg-white w-[210mm] h-[297mm] p-[10mm] flex flex-col">
-      <div class="w-full flex justify-between">
-        <div class="flex flex-col w-[65%]">
-          <h1 class="text-[40px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
+  <main class="flex justify-center body flex-col">
+    <div class="flex justify-center mb-6 mt-4">
+      <a
+        :href="pdfUrl"
+        download="Simeon-Azogbonon-Resume.pdf"
+        class="px-6 py-2 bg-[#1d4ed8] text-white font-semibold rounded-lg hover:bg-[#1540b0] transition-colors duration-200 cursor-pointer"
+      >
+        📥 Download PDF
+      </a>
+    </div>
+
+    <div
+      id="cv"
+      class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[12mm] flex flex-col overflow-hidden"
+    >
+      <!-- Header -->
+      <header class="w-full flex justify-between items-start pb-3 border-b-2 border-[#1d4ed8]">
+        <div class="flex flex-col w-[62%]">
+          <h1 class="text-[36px] text-[#1d4ed8] tracking-[-1px] leading-[100%] font-semibold">
             Siméon Azogbonon
           </h1>
-          <h2 class="text-[16px] text-gray-700 font-semibold my-1">Full Stack Web Developer</h2>
-          <p class="text-[12px] text-gray-700 w-[85%] font-normal">
-            Web Developer with 2 years of experience, I am passionate about modern web technologies
-            and Artificial Intelligence, a field in which I'm currently pursuing a Master’s degree.
+          <h2 class="text-[15px] text-gray-800 font-semibold mt-2">
+            Full Stack Developer · JavaScript / TypeScript
+          </h2>
+          <p class="text-[12.5px] text-gray-700 font-normal mt-2 leading-snug">
+            3 years of experience designing web applications and APIs (Node.js, NestJS, Vue 3,
+            React). Master's student in Artificial Intelligence and Big Data (ESGIS Benin).
           </p>
         </div>
 
-        <div class="flex items-center w-[30%]">
-          <div class="flex flex-col text-[12px] text-gray-700">
-            <a
-              href="mailto:simeonazogbonon@gmail.com"
-              title="Email"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              simeonazogbonon@gmail.com</a
-            >
-            <a
-              href="tel:+2290153988208"
-              title="Phone number"
-              target="_blank"
-              rel="noopener noreferrer"
-              >+229 01 53 98 82 08</a
-            >
-            <a
-              href="http://github.com/simeonaz"
-              title="Github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github.com/simeonaz</a
-            >
-            <a
-              href="http://simeonaz.netlify.app/"
-              title="Portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              simeonaz.netlify.app</a
-            >
-            <span>Abomey-Calavi, Republic of Benin</span>
-          </div>
+        <div class="flex flex-col text-[12px] text-gray-700 w-[34%] space-y-0.5 pt-1">
+          <a href="mailto:simeonazogbonon@gmail.com" title="Email">✉ simeonazogbonon@gmail.com</a>
+          <a href="tel:+2290153988208" title="Phone">☎ +229 01 53 98 82 08</a>
+          <a href="http://github.com/simeonaz" target="_blank" rel="noopener noreferrer">
+            ⌥ github.com/simeonaz
+          </a>
+          <a href="http://simeonaz.netlify.app/" target="_blank" rel="noopener noreferrer">
+            ◎ simeonaz.netlify.app
+          </a>
+          <span>⌖ Abomey-Calavi, Benin</span>
         </div>
-      </div>
+      </header>
 
-      <div class="w-full flex justify-between mt-4">
-        <div class="flex flex-col w-[65%]">
-          <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-            Professional Experience
-          </h2>
-
-          <!-- Payplus -->
-          <div class="mt-3 flex flex-col">
-            <div class="flex flex-col">
-              <div class="flex justify-between text-[13px] font-semibold text-gray-800">
-                <span
-                  >Frontend Developer –
-                  <a href="https://lapieuvretechnologique.com/" class="text-[#1d4ed8]"
-                    >LA PIEUVRE TECHNOLOGIQUE</a
-                  ></span
-                >
-                <span class="italic text-gray-600 font-normal text-[12px]">October 2025 – now</span>
+      <div class="w-full flex justify-between mt-4 flex-1 min-h-0">
+        <!-- Main column -->
+        <div class="flex flex-col w-[66%]">
+          <section>
+            <h3 class="section-title">Professional Experience</h3>
+            <div v-for="exp in experiences" :key="exp.company" class="mt-2.5">
+              <div
+                class="flex justify-between items-baseline text-[12.5px] font-semibold text-gray-800"
+              >
+                <span>
+                  {{ exp.role }} – <span class="text-[#1d4ed8]">{{ exp.company }}</span>
+                </span>
+                <span class="italic text-gray-500 font-normal text-[11.5px] whitespace-nowrap ml-2">
+                  {{ exp.period }}
+                </span>
               </div>
-              <div class="text-[12px] text-gray-600">St Jean, Cotonou, Benin</div>
+              <div class="text-[11.5px] text-gray-500">{{ exp.location }}</div>
+              <ul class="mt-1 space-y-0.5 text-[12px] text-gray-700">
+                <li v-for="b in exp.bullets" :key="b" class="bullet" v-html="b"></li>
+              </ul>
             </div>
-          </div>
+          </section>
 
-          <!-- TOK Services -->
-          <div class="mt-3 flex flex-col">
-            <div class="flex flex-col">
-              <div class="flex justify-between text-[13px] font-semibold text-gray-800">
-                <span>Full Stack Developer – <span class="text-[#1d4ed8]">TOK SERVICES</span></span>
-                <span class="italic text-gray-600 font-normal text-[12px]"
-                  >June 2024 – June 2025</span
-                >
+          <section class="mt-4">
+            <h3 class="section-title">Projects</h3>
+            <div v-for="pr in projects" :key="pr.name" class="mt-2">
+              <div
+                class="flex justify-between items-baseline text-[12.5px] font-semibold text-gray-800"
+              >
+                <span>{{ pr.name }}</span>
+                <span v-if="pr.link" class="text-[11px] text-[#1d4ed8] font-normal ml-2">{{
+                  pr.link
+                }}</span>
               </div>
-              <div class="text-[12px] text-gray-600">Agla, Cotonou, Benin</div>
+              <p class="text-[12px] text-gray-700" v-html="pr.description"></p>
+              <p class="text-[11px] text-gray-500 italic">{{ pr.stack }}</p>
             </div>
+          </section>
 
-            <div class="flex flex-col mt-2.5">
-              <h5 class="text-[13px] text-gray-700 font-bold">Key Projects</h5>
-              <!-- Iryka -->
-              <div class="flex flex-col mt-1">
-                <div class="text-gray-700 font-medium text-[15px]">
-                  Application
-                  <a
-                    href="http://app.iryka.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Iryka"
-                    >Iryka</a
-                  >: Website generator using templates, e-commerce and appointment management –
-                  <a
-                    href="http://app.iryka.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >view</a
-                  >
-                </div>
-
-                <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
-                  <p>• Designed and developed the backend with NestJS, TypeORM and PostgreSQL</p>
-                  <p>• Developed responsive front-end with Vue.js and TailwindCSS</p>
-                  <p>• Implemented business logic for automatic website customization</p>
-                  <p>• Integrated e-commerce features (catalog, cart, online payment)</p>
-                  <p>
-                    • Set up appointment management system (scheduling, booking and notifications)
-                  </p>
-                  <p>• Participated in overall architecture and technical decisions</p>
-                  <p>• Supervised interns (task management, UI/UX validation, code review)</p>
-                </div>
+          <section class="mt-4">
+            <h3 class="section-title">Education</h3>
+            <div v-for="f in education" :key="f.title" class="mt-2">
+              <div class="flex justify-between items-baseline text-[12.5px]">
+                <span class="text-gray-800 font-semibold">{{ f.title }}</span>
+                <span class="text-[11.5px] text-gray-500 italic ml-2 whitespace-nowrap">
+                  {{ f.period }}
+                </span>
               </div>
-              <!-- Panneau mobile -->
-              <div class="flex flex-col mt-3">
-                <div class="text-gray-700 font-medium text-[15px]">
-                  Client management and portal application for
-                  <a
-                    href="http://panneaumobile.co"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Panneau Mobile Website"
-                    >Panneau Mobile</a
-                  >
-                  –
-                  <a
-                    href="http://pige.panneaumobile.co"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >view</a
-                  >
-                </div>
-
-                <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
-                  <p>• Updated client services management system</p>
-                  <p>• Developed user interfaces with Vue.js and TailwindCSS</p>
-                  <p>
-                    • Created management API for real-time geolocation of mobile advertising devices
-                    with NestJS, TypeORM and PostgreSQL
-                  </p>
-                  <p>• Updated Panneau Mobile showcase website</p>
-                </div>
-              </div>
-
-              <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
-                <span class="font-semibold mr-1">Reference:</span>
-                <p class="font-normal text-gray-700">
-                  Mr. Cédric TOKPONSI • CEO TOK SERVICES (<a href="tel:+2290167790998"
-                    >+229 01 67 79 09 98</a
-                  >)
-                </p>
-              </div>
+              <p class="text-[12px] text-gray-600">{{ f.school }}</p>
             </div>
-          </div>
-
-          <!-- Euphorbia Group -->
-          <div class="mt-5 flex flex-col">
-            <div class="flex flex-col">
-              <div class="flex justify-between text-[13px] font-semibold text-gray-800">
-                <span
-                  >Web Developer Intern – <span class="text-[#1d4ed8]">EUPHORBIA GROUP</span></span
-                >
-                <span class="italic text-gray-600 font-normal text-[12px]"
-                  >March 2023 – March 2024</span
-                >
-              </div>
-              <div class="text-[12px] text-gray-600">Scoa Gbeto, Cotonou, Benin</div>
-            </div>
-
-            <div class="flex flex-col mt-3">
-              <h5 class="text-[13px] text-gray-700 font-bold">Key Projects</h5>
-              <!-- AEP Parakou -->
-              <div class="flex flex-col mt-1">
-                <div class="text-gray-700 font-medium text-[15px]">
-                  Water supply management application for the Municipality of Parakou –
-                  <a
-                    href="https://aep.parakou.bj/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >view</a
-                  >
-                </div>
-                <div class="text-gray-700 font-medium text-[15px] mt-1">
-                  Private school management application
-                  <a
-                    href="https://axena.euphorbiagroup.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-600 underline text-[12px]"
-                    >view</a
-                  >
-                </div>
-                <div class="text-gray-700 font-medium text-[15px] mt-1">
-                  Mutual insurance management application for Euphorbia Group
-                </div>
-                <div class="flex flex-col space-y-1 mt-2 pl-3 text-[13px] text-gray-700">
-                  <p>• Integrated Vue.js templates to create user interfaces</p>
-                  <p>• Consumed external APIs for data management</p>
-                  <p>• Created APIs with NestJS and CodeIgniter, MySQL, MongoDB</p>
-                </div>
-              </div>
-            </div>
-            <div class="mt-2 flex items-start space-x-1.5 text-[12px] text-gray-700 font-normal">
-              <span class="font-semibold mr-1">Reference:</span>
-              <p class="font-normal text-gray-700">
-                Mr. Habib DONOU • Head of Information Systems Department at Euphorbia Group (<a
-                  href="tel:+2290197283688"
-                  >+229 01 97 28 36 88</a
-                >)
-              </p>
-            </div>
-          </div>
+          </section>
         </div>
 
-        <div class="w-[30%]">
-          <div class="flex flex-col">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25px] leading-[100%] font-semibold">
-              Education
-            </h2>
-
-            <div class="mt-1 flex flex-col">
-              <div class="flex justify-between">
-                <div class="text-gray-700 font-semibold text-[12px]">
-                  Master's Degree in Artificial Intelligence and Big Data
-                </div>
-                <div class="text-[12px] text-gray-500 italic">In progress – 1st year</div>
+        <!-- Sidebar -->
+        <aside class="w-[30%] flex flex-col">
+          <section>
+            <h3 class="section-title">Technical Skills</h3>
+            <div v-for="g in skills" :key="g.label" class="mt-2">
+              <div class="text-[11.5px] font-semibold text-gray-800">
+                {{ g.label }}
               </div>
-              <p class="text-[12px] text-gray-700 font-normal">ESGIS Bénin</p>
+              <div class="text-[12px] text-gray-700 leading-snug">{{ g.items }}</div>
             </div>
+          </section>
 
-            <div class="mt-1 flex flex-col">
-              <div class="flex justify-between">
-                <div class="text-gray-700 font-semibold text-[12px]">
-                  Bachelor's Degree in Computer Science
-                </div>
-                <div class="text-[12px] text-gray-500 italic">2022</div>
-              </div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                Haute École de Management et de Commerce (HECM)
-              </p>
+          <section class="mt-4">
+            <h3 class="section-title">Soft Skills</h3>
+            <ul class="mt-2 space-y-0.5 text-[12px] text-gray-700">
+              <li v-for="t in softSkills" :key="t" class="bullet">{{ t }}</li>
+            </ul>
+          </section>
+
+          <section class="mt-4">
+            <h3 class="section-title">Languages</h3>
+            <ul class="mt-2 space-y-0.5 text-[12px] text-gray-700">
+              <li class="bullet">French: proficient (C2)</li>
+              <li class="bullet">English: intermediate (B1)</li>
+            </ul>
+          </section>
+
+          <section class="mt-4">
+            <h3 class="section-title">Hobbies</h3>
+            <ul class="mt-2 space-y-0.5 text-[12px] text-gray-700">
+              <li v-for="l in hobbies" :key="l" class="bullet">{{ l }}</li>
+            </ul>
+          </section>
+
+          <section class="mt-4">
+            <h3 class="section-title">References</h3>
+            <div v-for="r in references" :key="r.name" class="mt-2 text-[11.5px] leading-snug">
+              <div class="font-semibold text-gray-800">{{ r.name }}</div>
+              <div class="text-gray-600">{{ r.role }}</div>
+              <div class="text-gray-700">{{ r.phone }}</div>
+              <div class="text-gray-700 break-all">{{ r.email }}</div>
             </div>
-
-            <div class="mt-1 flex flex-col">
-              <div class="flex justify-between">
-                <div class="text-gray-700 font-semibold text-[12px]">
-                  Back End Development and APIs
-                </div>
-                <div class="text-[12px] text-gray-500 italic">2023</div>
-              </div>
-              <p class="text-[12px] text-gray-700 font-normal">
-                freeCodeCamp –
-                <a
-                  href="https://www.freecodecamp.org/certification/simeon_azogbonon/back-end-development-and-apis"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-blue-600 underline"
-                  >view</a
-                >
-              </p>
-            </div>
-
-            <!-- <div class="mt-1 flex flex-col">
-              <div class="flex justify-between">
-                <div class="text-gray-700 font-semibold text-[12px]">API Design</div>
-                <div class="text-[12px] text-gray-500 italic">2025</div>
-              </div>
-              <p class="text-[12px] text-gray-700 font-normal">API Academy</p>
-            </div> -->
-          </div>
-
-          <div class="flex flex-col mt-4">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Skills
-            </h2>
-
-            <div class="mt-2 flex flex-col">
-              <h3 class="text-gray-700 font-semibold text-[13px]">Technical Skills</h3>
-              <div class="mt-1 flex flex-col space-y-1.5 text-[12.5px] text-gray-700 font-normal">
-                <p>• Designed web interfaces from Figma mockups</p>
-                <p>• Developed frontend with Vue.js, Nuxt.js and TailwindCSS</p>
-                <p>• Created and integrated REST APIs with Node.js and NestJS</p>
-                <p>• Manipulated databases with PostgreSQL (TypeORM) and MongoDB (Mongoose)</p>
-                <p>• Used version control and collaborated with Git</p>
-                <p>• Implemented CI/CD workflows with GitHub Actions and Gitlab CI</p>
-                <!-- <p>• Wrote technical documentation with Swagger and Postman</p> -->
-                <p>• Used tools: VS Code, Cursor, Docker, Netlify, Vercel</p>
-                <!-- <p>• Deployed on Netlify and Vercel</p> -->
-                <p>• Mastered languages: JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
-                <!-- <p>• Automation and API integrations with n8n</p> -->
-              </div>
-            </div>
-
-            <div class="flex flex-col mt-2">
-              <h3 class="text-gray-700 font-semibold text-[13px]">Soft Skills</h3>
-              <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-                <p>• Problem solving</p>
-                <p>• Teamwork</p>
-                <p>• Autonomy</p>
-              </div>
-            </div>
-
-            <div class="flex flex-col mt-2">
-              <h3 class="text-gray-700 font-bold text-[13px]">Language Skills</h3>
-              <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-                <p>• French: fluent (native)</p>
-                <p>• English: intermediate level (B1)</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex flex-col mt-4">
-            <h2 class="text-[15px] text-[#1d4ed8] tracking-[-0.25 px] leading-[100%] font-semibold">
-              Hobbies
-            </h2>
-            <div class="mt-1 flex flex-col space-y-1 text-[12.5px] text-gray-700 font-normal">
-              <p>• Music production</p>
-              <p>• Reading</p>
-              <p>• Technology watch and IT news</p>
-            </div>
-          </div>
-        </div>
+          </section>
+        </aside>
       </div>
     </div>
   </main>
 </template>
+
+<script setup>
+const experiences = [
+  {
+    role: 'Frontend Developer',
+    company: 'La pieuvre technologique',
+    period: 'Oct. 2025 – present',
+    location: 'Cotonou, Benin',
+    bullets: [
+      'Built Vue.js 3 and TypeScript interfaces for a <strong>civil registry management</strong> application (ANIP).',
+      'Frontend development of <strong>Govethos</strong>, an audit and GRC (governance, risk and compliance) platform.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    company: 'Agence des Systèmes d\'Information et du Numérique (ASIN)',
+    period: 'June 2026 – Oct. 2026',
+    location: 'Cotonou, Benin',
+    bullets: [
+      'Developed microservices and REST APIs in an n-tier architecture (NestJS, Vue.js) for an <strong>HR application</strong> serving government agencies.',
+      'Implemented <strong>SSO</strong> (single sign-on) for civil servants through the government IdP and its LDAP directory.',
+      'Integrated <strong>electronic signature through the national PKI</strong> to secure and authenticate documents.',
+      '<strong>Backend</strong> code reviews and ownership of the delivery of several <strong>modules</strong>.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    company: 'TOK SERVICES',
+    period: 'June 2024 – June 2025',
+    location: 'Cotonou, Benin',
+    bullets: [
+      'Developed <strong>SaaS applications</strong> and <strong>client management systems</strong> with NestJS, PostgreSQL and Vue.js.',
+      'Designed <strong>real-time geolocation</strong> APIs.',
+    ],
+  },
+  {
+    role: 'Web Developer Intern',
+    company: 'EUPHORBIA GROUP',
+    period: 'Mar. 2023 – May 2024',
+    location: 'Cotonou, Benin',
+    bullets: [
+      'Developed <strong>enterprise web applications</strong> with Vue.js, NestJS and CodeIgniter.',
+    ],
+  },
+]
+
+const projects = [
+  {
+    name: 'HR Application for Benin\'s Government Agencies',
+    link: '',
+    stack: 'Stack: NestJS, Vue.js, PostgreSQL',
+  },
+  {
+    name: 'Civil Registry Management Platform (ANIP)',
+    link: '',
+    stack: 'Stack: Vue.js 3, TypeScript, TailwindCSS',
+  },
+  {
+    name: 'Govethos',
+    link: 'https://govethos.com',
+    description: 'Audit and GRC (governance, risk and compliance) platform.',
+    stack: 'Stack: Vue.js, TypeScript, TailwindCSS',
+  },
+]
+
+const education = [
+  {
+    title: 'Master\'s Degree in Artificial Intelligence and Big Data',
+    period: 'Nov. 2025 – present',
+    school: 'École Supérieure de Gestion, d\'Informatique et des Sciences (ESGIS)',
+  },
+  {
+    title: 'Professional Bachelor\'s Degree in Computer Systems and Software',
+    period: '2022',
+    school: 'Haute École de Management et de Commerce (HECM)',
+  },
+]
+
+const skills = [
+  { label: 'Languages', items: 'JavaScript, TypeScript, Python, HTML5, CSS3' },
+  { label: 'Frontend', items: 'Vue, Nuxt, React, TailwindCSS' },
+  { label: 'Backend', items: 'NestJS, FastAPI' },
+  { label: 'Databases', items: 'PostgreSQL, MySQL, MongoDB, Redis' },
+  { label: 'Tools', items: 'Git, GitHub, GitLab, Docker, VS Code, Claude Code' },
+]
+
+const references = [
+  {
+    name: 'Donald ABLO',
+    role: 'Chief Executive Officer, La Pieuvre Technologique',
+    phone: '+229 01 97 76 11 82',
+    email: 'ablo3dv@gmail.com',
+  },
+  {
+    name: 'Oscar GBADOU',
+    role: 'Head of Software Engineering, ASIN',
+    phone: '+229 01 96 50 18 87',
+    email: 'ogbadou@presidence.bj',
+  },
+]
+
+const softSkills = ['Problem solving', 'Teamwork', 'Autonomy']
+const hobbies = ['IT news', 'Computer-assisted music production', 'Reading']
+
+// Vector PDF generated by `npm run build:cv` (scripts/build-cv-pdf.mjs)
+const pdfUrl = `${import.meta.env.BASE_URL}CV-Simeon-Azogbonon-EN.pdf`
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .body {
   font-family: 'Inter', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 600;
+  color: #1d4ed8;
+  letter-spacing: -0.25px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #dbe4fb;
+}
+
+.bullet::before {
+  content: '•';
+  margin-right: 5px;
+  color: #1d4ed8;
 }
 </style>
