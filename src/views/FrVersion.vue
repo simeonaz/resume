@@ -100,7 +100,11 @@
           <section>
             <h3 class="section-title">Compétences techniques</h3>
             <div v-for="g in skills" :key="g.label" class="mt-2">
-              <div class="text-[11.5px] font-semibold text-gray-800">{{ g.label }}</div>
+              <div
+                class="text-[11.5px] font-semibold text-gray-800"
+              >
+                {{ g.label }}
+              </div>
               <div class="text-[12px] text-gray-700 leading-snug">{{ g.items }}</div>
             </div>
           </section>
@@ -115,7 +119,7 @@
           <section class="mt-4">
             <h3 class="section-title">Langues</h3>
             <ul class="mt-2 space-y-0.5 text-[12px] text-gray-700">
-              <li class="bullet">Français : langue maternelle</li>
+              <li class="bullet">Français : maîtrise (C2)</li>
               <li class="bullet">Anglais : intermédiaire (B1)</li>
             </ul>
           </section>
@@ -210,8 +214,7 @@ const projects = [
   {
     name: 'Govethos',
     link: 'https://govethos.com',
-    description:
-      "Plateforme d'audit et de GRC (gouvernance, risques et conformité).",
+    description: "Plateforme d'audit et de GRC (gouvernance, risques et conformité).",
     stack: 'Stack : Vue.js, TypeScript, TailwindCSS',
   },
 ]
@@ -220,7 +223,7 @@ const education = [
   {
     title: 'Master en Intelligence Artificielle et Big Data',
     period: "nov. 2025 – aujourd'hui",
-    school: 'École Supérieure de Gestion, d\'Informatique et des Sciences (ESGIS)',
+    school: "École Supérieure de Gestion, d'Informatique et des Sciences (ESGIS)",
   },
   {
     title: 'Licence Pro. en Systèmes Informatiques et Logiciels',
@@ -238,6 +241,10 @@ const skills = [
   { label: 'Langages', items: 'JavaScript, TypeScript, Python, HTML5, CSS3' },
   { label: 'Frontend', items: 'Vue, Nuxt, React, TailwindCSS' },
   { label: 'Backend', items: 'NestJS, FastAPI' },
+  // {
+  //   label: 'IA & Big Data (Master)',
+  //   items: '[Machine Learning, Deep Learning, scikit-learn, pandas, Spark]',
+  // },
   { label: 'Bases de données', items: 'PostgreSQL, MySQL, MongoDB, Redis' },
   { label: 'Outils', items: 'Git, GitHub, GitLab, Docker, VS Code, Claude Code' },
 ]
