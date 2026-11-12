@@ -12,7 +12,7 @@
 
     <div
       id="cv"
-      class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[11mm] flex flex-col overflow-hidden"
+      class="bg-white w-[210mm] h-[297mm] px-[10mm] py-[12mm] flex flex-col overflow-hidden"
     >
       <!-- En-tête -->
       <header class="w-full flex justify-between items-start pb-3 border-b-2 border-[#1d4ed8]">
@@ -29,7 +29,7 @@
           </p>
         </div>
 
-        <div class="flex flex-col text-[12px] text-gray-700 w-[34%] space-y-0.5 pt-3">
+        <div class="flex flex-col text-[12px] text-gray-700 w-[34%] space-y-0.5 pt-1">
           <a href="mailto:simeonazogbonon@gmail.com" title="Email">✉ simeonazogbonon@gmail.com</a>
           <a href="tel:+2290153988208" title="Téléphone">☎ +229 01 53 98 82 08</a>
           <a href="http://github.com/simeonaz" target="_blank" rel="noopener noreferrer">
@@ -196,22 +196,22 @@ const projects = [
   {
     name: 'Application RH des agences du Bénin',
     link: '',
-    description:
-      'Application RH pour les agences gouvernementales.',
+    // description:
+    //   'Application RH pour les agences gouvernementales.',
     stack: 'Stack : NestJS, Vue.js, PostgreSQL',
   },
   {
     name: "Plateforme de gestion de l'état civil (ANIP)",
     link: '',
-    description:
-      "Application de gestion de l'état civil. Développement de l'interface utilisateur.",
+    // description:
+    //   "Application de gestion de l'état civil. Développement de l'interface utilisateur.",
     stack: 'Stack : Vue.js 3, TypeScript, TailwindCSS',
   },
   {
     name: 'Govethos',
     link: 'https://govethos.com',
     description:
-      "Plateforme d'audit et de GRC (gouvernance, risques et conformité). Développement frontend. [Fonctionnalités clés]",
+      "Plateforme d'audit et de GRC (gouvernance, risques et conformité).",
     stack: 'Stack : Vue.js, TypeScript, TailwindCSS',
   },
 ]
@@ -220,7 +220,7 @@ const education = [
   {
     title: 'Master en Intelligence Artificielle et Big Data',
     period: "nov. 2025 – aujourd'hui",
-    school: 'ESGIS Bénin',
+    school: 'École Supérieure de Gestion, d\'Informatique et des Sciences (ESGIS)',
   },
   {
     title: 'Licence Pro. en Systèmes Informatiques et Logiciels',
