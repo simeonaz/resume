@@ -100,9 +100,7 @@
           <section>
             <h3 class="section-title">Compétences techniques</h3>
             <div v-for="g in skills" :key="g.label" class="mt-2">
-              <div
-                class="text-[11.5px] font-semibold text-gray-800"
-              >
+              <div class="text-[11.5px] font-semibold text-gray-800">
                 {{ g.label }}
               </div>
               <div class="text-[12px] text-gray-700 leading-snug">{{ g.items }}</div>
@@ -160,7 +158,7 @@ const experiences = [
     location: 'Cotonou, Bénin',
     bullets: [
       "Développement d'interfaces en Vue.js 3 et TypeScript pour une application de <strong>gestion de l'état civil</strong> (ANIP).",
-      "Développement frontend d'une <strong>plateforme d'audit et de GRC</strong> (gouvernance, risques et conformité).",
+      "Développement frontend de <strong>Govethos</strong>, plateforme d'audit et de GRC (gouvernance, risques et conformité).",
     ],
   },
   {
@@ -169,7 +167,7 @@ const experiences = [
     period: 'juin 2026 – oct. 2026',
     location: 'Cotonou, Bénin',
     bullets: [
-      "Développement de microservices et d'APIs REST en architecture n-tiers avec NestJS, et d'interfaces en Vue.js.",
+      "Développement de microservices et d'APIs REST en architecture n-tiers (NestJS, Vue.js) pour une <strong>application RH</strong> destinée aux agences gouvernementales, aux workflows adaptables.",
       "Mise en place du <strong>SSO</strong> (authentification unique) des agents via l'IdP gouvernemental et son annuaire LDAP.",
       'Intégration de la <strong>signature électronique via la PKI nationale</strong> pour sécuriser et authentifier les documents.',
       'Revue de code <strong>backend</strong> et responsabilité de la livraison de plusieurs <strong>modules développés</strong>.',
