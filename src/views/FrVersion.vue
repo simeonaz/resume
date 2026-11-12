@@ -167,7 +167,7 @@ const experiences = [
     period: 'juin 2026 – oct. 2026',
     location: 'Cotonou, Bénin',
     bullets: [
-      "Développement de microservices et d'APIs REST en architecture n-tiers (NestJS, Vue.js) pour une <strong>application RH</strong> destinée aux agences gouvernementales, aux workflows adaptables.",
+      "Développement de microservices et d'APIs REST en architecture n-tiers (NestJS, Vue.js) pour une <strong>application RH</strong> destinée aux agences gouvernementales.",
       "Mise en place du <strong>SSO</strong> (authentification unique) des agents via l'IdP gouvernemental et son annuaire LDAP.",
       'Intégration de la <strong>signature électronique via la PKI nationale</strong> pour sécuriser et authentifier les documents.',
       'Revue de code <strong>backend</strong> et responsabilité de la livraison de plusieurs <strong>modules développés</strong>.',
