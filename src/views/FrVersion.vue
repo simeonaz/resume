@@ -1,13 +1,13 @@
 <template>
   <main class="flex justify-center body flex-col">
     <div class="flex justify-center mb-6 mt-4">
-      <button
-        @click="downloadPDF"
-        :disabled="isGenerating"
-        class="px-6 py-2 bg-[#1d4ed8] text-white font-semibold rounded-lg hover:bg-[#1540b0] transition-colors duration-200 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
+      <a
+        :href="pdfUrl"
+        download="Simeon-Azogbonon-CV.pdf"
+        class="px-6 py-2 bg-[#1d4ed8] text-white font-semibold rounded-lg hover:bg-[#1540b0] transition-colors duration-200 cursor-pointer"
       >
-        {{ isGenerating ? 'Génération en cours…' : '📥 Télécharger en PDF' }}
-      </button>
+        📥 Télécharger en PDF
+      </a>
     </div>
 
     <div
@@ -145,10 +145,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import html2canvas from 'html2canvas-pro'
-import { jsPDF } from 'jspdf'
-
 // ⚠️ Les valeurs entre [crochets] sont des placeholders à remplacer.
 const experiences = [
   {
@@ -265,51 +261,8 @@ const references = [
 const softSkills = ['Résolution de problèmes', 'Travail en équipe', 'Autonomie']
 const hobbies = ['Actualités informatiques', 'Musique Assistée par Ordinateur', 'Lecture']
 
-const isGenerating = ref(false)
-
-const downloadPDF = async () => {
-  const element = document.getElementById('cv')
-  if (!element || isGenerating.value) return
-
-  isGenerating.value = true
-
-  try {
-    await document.fonts.ready
-
-    const scale = Math.min(4, Math.max(3, window.devicePixelRatio * 2))
-
-    const canvas = await html2canvas(element, {
-      scale,
-      useCORS: true,
-      logging: false,
-      backgroundColor: '#ffffff',
-      width: element.scrollWidth,
-      height: element.scrollHeight,
-      windowWidth: element.scrollWidth,
-      windowHeight: element.scrollHeight,
-      scrollX: 0,
-      scrollY: -window.scrollY,
-    })
-
-    const pdf = new jsPDF({
-      orientation: 'portrait',
-      unit: 'mm',
-      format: 'a4',
-    })
-
-    const pageWidth = pdf.internal.pageSize.getWidth()
-    const pageHeight = pdf.internal.pageSize.getHeight()
-
-    pdf.addImage(canvas.toDataURL('image/png', 1), 'PNG', 0, 0, pageWidth, pageHeight)
-
-    pdf.save('Simeon-Azogbonon-CV.pdf')
-  } catch (error) {
-    console.error('Erreur lors de la génération du PDF:', error)
-    alert('Erreur lors de la génération du PDF')
-  } finally {
-    isGenerating.value = false
-  }
-}
+// PDF vectoriel généré par `npm run build:cv` (scripts/build-cv-pdf.mjs)
+const pdfUrl = `${import.meta.env.BASE_URL}CV-Simeon-Azogbonon.pdf`
 </script>
 
 <style scoped>
